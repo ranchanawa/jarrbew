@@ -1,0 +1,489 @@
+{
+ "lesson": 6,
+ "titleTh": "กิน ดื่ม และชวน",
+ "titleJp": "いっしょに 食べませんか",
+ "emoji": "🍱",
+ "kanjiBookLesson": 8,
+ "notionUrl": "",
+ "vocab": [
+  {
+   "id": "v6-001",
+   "kana": "たべます",
+   "kanji": "食べます",
+   "romaji": "tabemasu",
+   "th": "กิน",
+   "emoji": "🍽️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v6-002",
+   "kana": "のみます",
+   "kanji": "飲みます",
+   "romaji": "nomimasu",
+   "th": "ดื่ม",
+   "emoji": "🥤",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v6-003",
+   "kana": "みます",
+   "kanji": "見ます",
+   "romaji": "mimasu",
+   "th": "ดู",
+   "emoji": "👀",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v6-004",
+   "kana": "ききます",
+   "kanji": "聞きます",
+   "romaji": "kikimasu",
+   "th": "ฟัง",
+   "emoji": "🎧",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v6-005",
+   "kana": "よみます",
+   "kanji": "読みます",
+   "romaji": "yomimasu",
+   "th": "อ่าน",
+   "emoji": "📖",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v6-006",
+   "kana": "かきます",
+   "kanji": "書きます",
+   "romaji": "kakimasu",
+   "th": "เขียน",
+   "emoji": "✍️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v6-007",
+   "kana": "かいます",
+   "kanji": "買います",
+   "romaji": "kaimasu",
+   "th": "ซื้อ",
+   "emoji": "🛒",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v6-008",
+   "kana": "ごはん",
+   "kanji": "ご飯",
+   "romaji": "gohan",
+   "th": "ข้าว / มื้ออาหาร",
+   "emoji": "🍚",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v6-009",
+   "kana": "みず",
+   "kanji": "水",
+   "romaji": "mizu",
+   "th": "น้ำ",
+   "emoji": "💧",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v6-010",
+   "kana": "えいが",
+   "kanji": "映画",
+   "romaji": "eiga",
+   "th": "ภาพยนตร์",
+   "emoji": "🎬",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g6-01",
+   "pattern": "N を V",
+   "explainTh": "を บอกกรรม (สิ่งที่ถูกกระทำ) อ่านว่า o",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "水を 飲みます。",
+     "kana": "みずを のみます。",
+     "th": "ดื่มน้ำ",
+     "emoji": "🥤"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g6-02",
+   "pattern": "場所 で V",
+   "explainTh": "で บอกสถานที่ที่ทำกิจกรรม",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "食堂で ご飯を 食べます。",
+     "kana": "しょくどうで ごはんを たべます。",
+     "th": "กินข้าวที่โรงอาหาร",
+     "emoji": "🍱"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g6-03",
+   "pattern": "V-ませんか",
+   "explainTh": "ชวนแบบสุภาพ: ... ด้วยกันไหม",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "いっしょに 映画を 見ませんか。",
+     "kana": "いっしょに えいがを みませんか。",
+     "th": "ไปดูหนังด้วยกันไหม",
+     "emoji": "🎬"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g6-04",
+   "pattern": "V-ましょう",
+   "explainTh": "... กันเถอะ (ตอบรับคำชวน / เสนอ)",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "ええ、見ましょう。",
+     "kana": "ええ、みましょう。",
+     "th": "ได้สิ ดูกันเถอะ",
+     "emoji": "🙌"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "kanji": [
+  {
+   "id": "k8-01",
+   "char": "休",
+   "part": 1,
+   "on": [
+    "キュウ"
+   ],
+   "kun": [
+    "やす(む)"
+   ],
+   "th": "พัก / หยุด",
+   "emoji": "🛋️",
+   "strokes": 6,
+   "words": [
+    {
+     "jp": "休みます",
+     "kana": "やすみます",
+     "th": "พัก / หยุด"
+    },
+    {
+     "jp": "休み",
+     "kana": "やすみ",
+     "th": "วันหยุด"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k8-02",
+   "char": "買",
+   "part": 1,
+   "on": [
+    "バイ"
+   ],
+   "kun": [
+    "か(う)"
+   ],
+   "th": "ซื้อ",
+   "emoji": "🛒",
+   "strokes": 12,
+   "words": [
+    {
+     "jp": "買います",
+     "kana": "かいます",
+     "th": "ซื้อ"
+    },
+    {
+     "jp": "買い物",
+     "kana": "かいもの",
+     "th": "การซื้อของ"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k8-03",
+   "char": "見",
+   "part": 1,
+   "on": [
+    "ケン"
+   ],
+   "kun": [
+    "み(る)"
+   ],
+   "th": "ดู / มอง",
+   "emoji": "👀",
+   "strokes": 7,
+   "words": [
+    {
+     "jp": "見ます",
+     "kana": "みます",
+     "th": "ดู"
+    },
+    {
+     "jp": "花見",
+     "kana": "はなみ",
+     "th": "ชมดอกไม้"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k8-04",
+   "char": "会",
+   "part": 2,
+   "on": [
+    "カイ"
+   ],
+   "kun": [
+    "あ(う)"
+   ],
+   "th": "พบ / ประชุม",
+   "emoji": "🤝",
+   "strokes": 6,
+   "words": [
+    {
+     "jp": "会います",
+     "kana": "あいます",
+     "th": "พบ"
+    },
+    {
+     "jp": "会社",
+     "kana": "かいしゃ",
+     "th": "บริษัท"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k8-05",
+   "char": "社",
+   "part": 2,
+   "on": [
+    "シャ"
+   ],
+   "kun": [
+    "やしろ"
+   ],
+   "th": "บริษัท / ศาลเจ้า",
+   "emoji": "🏢",
+   "strokes": 7,
+   "words": [
+    {
+     "jp": "会社",
+     "kana": "かいしゃ",
+     "th": "บริษัท"
+    },
+    {
+     "jp": "社長",
+     "kana": "しゃちょう",
+     "th": "ประธานบริษัท"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "reading": null,
+ "listening": [
+  {
+   "id": "l6-01",
+   "jp": "けさ 何を 食べましたか。",
+   "kana": "けさ なにを たべましたか。",
+   "th": "เมื่อเช้ากินอะไร",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l6-02",
+   "jp": "図書館で 本を 読みます。",
+   "kana": "としょかんで ほんを よみます。",
+   "th": "อ่านหนังสือที่ห้องสมุด",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l6-03",
+   "jp": "いっしょに お茶を 飲みませんか。",
+   "kana": "いっしょに おちゃを のみませんか。",
+   "th": "ดื่มชาด้วยกันไหม",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q6-01",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "💧",
+   "explainTh": "を บอกสิ่งที่ถูกกระทำ",
+   "grammarRef": "g6-01",
+   "checked": false,
+   "prompt": "水（　）飲みます。",
+   "hintTh": "",
+   "choices": [
+    "を",
+    "で",
+    "へ",
+    "に"
+   ],
+   "answer": "を",
+   "accept": [
+    "を"
+   ]
+  },
+  {
+   "id": "q6-02",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🍱",
+   "explainTh": "で บอกสถานที่ที่ทำกิจกรรม",
+   "grammarRef": "g6-02",
+   "checked": false,
+   "prompt": "食堂{しょくどう}（　）ご飯{はん}を 食べます。",
+   "hintTh": "",
+   "choices": [
+    "で",
+    "を",
+    "へ",
+    "に"
+   ],
+   "answer": "で",
+   "accept": [
+    "で"
+   ]
+  },
+  {
+   "id": "q6-03",
+   "type": "conjugate",
+   "section": "文法",
+   "emoji": "🎬",
+   "explainTh": "ชวนใช้ ませんか",
+   "grammarRef": "g6-03",
+   "checked": false,
+   "prompt": "いっしょに 映画{えいが}を 見（　）。",
+   "hintTh": "ดูหนังด้วยกัน \"ไหม\"",
+   "choices": [
+    "ませんか",
+    "ました",
+    "ません",
+    "ます"
+   ],
+   "answer": "ませんか",
+   "accept": [
+    "ませんか"
+   ]
+  },
+  {
+   "id": "q6-04",
+   "type": "order",
+   "section": "文法",
+   "emoji": "📖",
+   "explainTh": "ประโยคที่ถูก: 図書館 で 本 を 読みます",
+   "grammarRef": "g6-02",
+   "checked": false,
+   "prompt": "อ่านหนังสือที่ห้องสมุด",
+   "tokens": [
+    "図書館{としょかん}",
+    "で",
+    "本",
+    "を",
+    "読みます"
+   ],
+   "answer": "図書館{としょかん}で本を読みます"
+  },
+  {
+   "id": "q6-05",
+   "type": "choose",
+   "section": "文法",
+   "emoji": "🙌",
+   "explainTh": "ตอบรับคำชวนใช้ ましょう",
+   "grammarRef": "g6-04",
+   "checked": false,
+   "prompt": "เพื่อนชวน แล้วเราตอบรับ",
+   "hintTh": "",
+   "choices": [
+    "ええ、行きましょう。",
+    "ええ、行きませんか。",
+    "ええ、行きませんでした。"
+   ],
+   "answer": "ええ、行きましょう。",
+   "accept": [
+    "ええ、行きましょう。"
+   ]
+  },
+  {
+   "id": "q6-06",
+   "type": "translate",
+   "section": "文法",
+   "emoji": "🍳",
+   "explainTh": "เมื่อเช้า (けさ) ใช้รูปอดีต",
+   "grammarRef": "g6-01",
+   "checked": false,
+   "prompt": "เมื่อเช้ากินอะไร",
+   "hintTh": "",
+   "choices": [
+    "けさ 何を 食べましたか。",
+    "けさ 何を 食べますか。",
+    "けさ どこで 食べましたか。"
+   ],
+   "answer": "けさ 何を 食べましたか。",
+   "accept": [
+    "けさ 何を 食べましたか。"
+   ]
+  },
+  {
+   "id": "q6-07",
+   "type": "situation",
+   "section": "文法",
+   "emoji": "🍵",
+   "explainTh": "〜ませんか ใช้ชวนอย่างสุภาพ",
+   "grammarRef": "g6-03",
+   "checked": false,
+   "prompt": "อยากชวนเพื่อนดื่มชา",
+   "hintTh": "",
+   "choices": [
+    "いっしょに お茶{ちゃ}を 飲みませんか。",
+    "お茶{ちゃ}を 飲みました。",
+    "お茶{ちゃ}は いくらですか。"
+   ],
+   "answer": "いっしょに お茶{ちゃ}を 飲みませんか。",
+   "accept": [
+    "いっしょに お茶{ちゃ}を 飲みませんか。"
+   ]
+  }
+ ]
+}

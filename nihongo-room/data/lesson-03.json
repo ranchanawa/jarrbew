@@ -1,0 +1,489 @@
+{
+ "lesson": 3,
+ "titleTh": "สถานที่และราคา",
+ "titleJp": "ここは どこですか",
+ "emoji": "🛍️",
+ "kanjiBookLesson": 5,
+ "notionUrl": "",
+ "vocab": [
+  {
+   "id": "v3-001",
+   "kana": "ここ",
+   "kanji": "",
+   "romaji": "koko",
+   "th": "ที่นี่",
+   "emoji": "📍",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v3-002",
+   "kana": "きょうしつ",
+   "kanji": "教室",
+   "romaji": "kyoushitsu",
+   "th": "ห้องเรียน",
+   "emoji": "🏫",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v3-003",
+   "kana": "しょくどう",
+   "kanji": "食堂",
+   "romaji": "shokudou",
+   "th": "โรงอาหาร",
+   "emoji": "🍱",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v3-004",
+   "kana": "トイレ",
+   "kanji": "",
+   "romaji": "toire",
+   "th": "ห้องน้ำ",
+   "emoji": "🚻",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v3-005",
+   "kana": "うけつけ",
+   "kanji": "受付",
+   "romaji": "uketsuke",
+   "th": "แผนกต้อนรับ",
+   "emoji": "🛎️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v3-006",
+   "kana": "うりば",
+   "kanji": "売り場",
+   "romaji": "uriba",
+   "th": "แผนกขาย",
+   "emoji": "🛍️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v3-007",
+   "kana": "〜かい",
+   "kanji": "〜階",
+   "romaji": "~kai",
+   "th": "ชั้นที่ ...",
+   "emoji": "🏢",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v3-008",
+   "kana": "〜えん",
+   "kanji": "〜円",
+   "romaji": "~en",
+   "th": "... เยน",
+   "emoji": "💴",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v3-009",
+   "kana": "いくら",
+   "kanji": "",
+   "romaji": "ikura",
+   "th": "เท่าไร (ราคา)",
+   "emoji": "🏷️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g3-01",
+   "pattern": "ここ / そこ / あそこ は N です",
+   "explainTh": "ใช้บอกสถานที่: ที่นี่ / ที่นั่น / ที่โน่น",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "ここは 食堂です。",
+     "kana": "ここは しょくどうです。",
+     "th": "ที่นี่คือโรงอาหาร",
+     "emoji": "🍱"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g3-02",
+   "pattern": "N は どこですか",
+   "explainTh": "ถามว่า N อยู่ที่ไหน (สุภาพขึ้นใช้ どちら)",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "トイレは どこですか。…あそこです。",
+     "kana": "トイレは どこですか。…あそこです。",
+     "th": "ห้องน้ำอยู่ที่ไหน …อยู่ที่โน่น",
+     "emoji": "🚻"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g3-03",
+   "pattern": "N は いくらですか",
+   "explainTh": "ถามราคา",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "この かばんは いくらですか。…三千円です。",
+     "kana": "この かばんは いくらですか。…さんぜんえんです。",
+     "th": "กระเป๋าใบนี้เท่าไร …3,000 เยน",
+     "emoji": "🛒"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g3-04",
+   "pattern": "N1 の N2 (ประเทศ / บริษัท)",
+   "explainTh": "บอกว่าของนั้นผลิตที่ไหน",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "これは 日本の 時計です。",
+     "kana": "これは にほんの とけいです。",
+     "th": "นี่คือนาฬิกาของญี่ปุ่น",
+     "emoji": "🇯🇵"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "kanji": [
+  {
+   "id": "k5-01",
+   "char": "日",
+   "part": 1,
+   "on": [
+    "ニチ",
+    "ジツ"
+   ],
+   "kun": [
+    "ひ",
+    "か"
+   ],
+   "th": "วัน / ดวงอาทิตย์",
+   "emoji": "☀️",
+   "strokes": 4,
+   "words": [
+    {
+     "jp": "日曜日",
+     "kana": "にちようび",
+     "th": "วันอาทิตย์"
+    },
+    {
+     "jp": "毎日",
+     "kana": "まいにち",
+     "th": "ทุกวัน"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k5-02",
+   "char": "本",
+   "part": 1,
+   "on": [
+    "ホン"
+   ],
+   "kun": [
+    "もと"
+   ],
+   "th": "หนังสือ / ต้นกำเนิด",
+   "emoji": "📕",
+   "strokes": 5,
+   "words": [
+    {
+     "jp": "本",
+     "kana": "ほん",
+     "th": "หนังสือ"
+    },
+    {
+     "jp": "日本",
+     "kana": "にほん",
+     "th": "ประเทศญี่ปุ่น"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k5-03",
+   "char": "人",
+   "part": 1,
+   "on": [
+    "ジン",
+    "ニン"
+   ],
+   "kun": [
+    "ひと"
+   ],
+   "th": "คน",
+   "emoji": "🧍",
+   "strokes": 2,
+   "words": [
+    {
+     "jp": "日本人",
+     "kana": "にほんじん",
+     "th": "คนญี่ปุ่น"
+    },
+    {
+     "jp": "一人",
+     "kana": "ひとり",
+     "th": "หนึ่งคน"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k5-04",
+   "char": "何",
+   "part": 2,
+   "on": [
+    "カ"
+   ],
+   "kun": [
+    "なに",
+    "なん"
+   ],
+   "th": "อะไร",
+   "emoji": "❓",
+   "strokes": 7,
+   "words": [
+    {
+     "jp": "何",
+     "kana": "なに",
+     "th": "อะไร"
+    },
+    {
+     "jp": "何時",
+     "kana": "なんじ",
+     "th": "กี่โมง"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k5-05",
+   "char": "語",
+   "part": 2,
+   "on": [
+    "ゴ"
+   ],
+   "kun": [
+    "かた(る)"
+   ],
+   "th": "ภาษา / คำ",
+   "emoji": "🗣️",
+   "strokes": 14,
+   "words": [
+    {
+     "jp": "日本語",
+     "kana": "にほんご",
+     "th": "ภาษาญี่ปุ่น"
+    },
+    {
+     "jp": "英語",
+     "kana": "えいご",
+     "th": "ภาษาอังกฤษ"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k5-06",
+   "char": "円",
+   "part": 2,
+   "on": [
+    "エン"
+   ],
+   "kun": [
+    "まる(い)"
+   ],
+   "th": "เยน / วงกลม",
+   "emoji": "💴",
+   "strokes": 4,
+   "words": [
+    {
+     "jp": "百円",
+     "kana": "ひゃくえん",
+     "th": "100 เยน"
+    },
+    {
+     "jp": "千円",
+     "kana": "せんえん",
+     "th": "1,000 เยน"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "reading": null,
+ "listening": [
+  {
+   "id": "l3-01",
+   "jp": "すみません、トイレは どこですか。",
+   "kana": "すみません、トイレは どこですか。",
+   "th": "ขอโทษนะคะ ห้องน้ำอยู่ที่ไหน",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l3-02",
+   "jp": "受付は 一階です。",
+   "kana": "うけつけは いっかいです。",
+   "th": "แผนกต้อนรับอยู่ชั้น 1",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l3-03",
+   "jp": "これを ください。",
+   "kana": "これを ください。",
+   "th": "ขออันนี้ค่ะ",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q3-01",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🚻",
+   "explainTh": "どこ = ที่ไหน",
+   "grammarRef": "g3-02",
+   "checked": false,
+   "prompt": "トイレは（　）ですか。",
+   "hintTh": "ห้องน้ำอยู่ \"ที่ไหน\"",
+   "choices": [
+    "どこ",
+    "いくら",
+    "なん",
+    "だれ"
+   ],
+   "answer": "どこ",
+   "accept": [
+    "どこ"
+   ]
+  },
+  {
+   "id": "q3-02",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "⌚",
+   "explainTh": "N1 の N2 บอกประเทศที่ผลิต",
+   "grammarRef": "g3-04",
+   "checked": false,
+   "prompt": "これは 日本（　）時計{とけい}です。",
+   "hintTh": "",
+   "choices": [
+    "の",
+    "は",
+    "を",
+    "で"
+   ],
+   "answer": "の",
+   "accept": [
+    "の"
+   ]
+  },
+  {
+   "id": "q3-03",
+   "type": "order",
+   "section": "文法",
+   "emoji": "👜",
+   "explainTh": "ประโยคที่ถูก: この かばん は いくら です か",
+   "grammarRef": "g3-03",
+   "checked": false,
+   "prompt": "กระเป๋าใบนี้ราคาเท่าไร",
+   "tokens": [
+    "この",
+    "かばん",
+    "は",
+    "いくら",
+    "です",
+    "か"
+   ],
+   "answer": "このかばんはいくらですか"
+  },
+  {
+   "id": "q3-04",
+   "type": "choose",
+   "section": "文法",
+   "emoji": "🛎️",
+   "explainTh": "บอกสถานที่ใช้ ここ / そこ / あそこ",
+   "grammarRef": "g3-01",
+   "checked": false,
+   "prompt": "เลือกประโยคที่ถูก (บอกว่าแผนกต้อนรับอยู่ที่โน่น)",
+   "hintTh": "",
+   "choices": [
+    "受付{うけつけ}は あそこです。",
+    "受付{うけつけ}は あれです。",
+    "受付{うけつけ}は あのです。"
+   ],
+   "answer": "受付{うけつけ}は あそこです。",
+   "accept": [
+    "受付{うけつけ}は あそこです。"
+   ]
+  },
+  {
+   "id": "q3-05",
+   "type": "translate",
+   "section": "文法",
+   "emoji": "🍱",
+   "explainTh": "ここ = ที่นี่",
+   "grammarRef": "g3-01",
+   "checked": false,
+   "prompt": "ที่นี่คือโรงอาหาร",
+   "hintTh": "",
+   "choices": [
+    "ここは 食堂{しょくどう}です。",
+    "これは 食堂{しょくどう}です。",
+    "そこは 教室{きょうしつ}です。"
+   ],
+   "answer": "ここは 食堂{しょくどう}です。",
+   "accept": [
+    "ここは 食堂{しょくどう}です。"
+   ]
+  },
+  {
+   "id": "q3-06",
+   "type": "situation",
+   "section": "文法",
+   "emoji": "🛒",
+   "explainTh": "〜を ください = ขอ ...",
+   "grammarRef": "g3-03",
+   "checked": false,
+   "prompt": "อยากซื้อของชิ้นนี้ ควรพูดว่า",
+   "hintTh": "",
+   "choices": [
+    "これを ください。",
+    "これは いくらですか。",
+    "これは なんですか。"
+   ],
+   "answer": "これを ください。",
+   "accept": [
+    "これを ください。"
+   ]
+  }
+ ]
+}

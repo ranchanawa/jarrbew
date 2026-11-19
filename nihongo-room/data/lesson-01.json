@@ -1,0 +1,555 @@
+{
+ "lesson": 1,
+ "titleTh": "แนะนำตัว",
+ "titleJp": "はじめまして",
+ "emoji": "🙋",
+ "kanjiBookLesson": 3,
+ "notionUrl": "",
+ "vocab": [
+  {
+   "id": "v1-001",
+   "kana": "わたし",
+   "kanji": "",
+   "romaji": "watashi",
+   "th": "ฉัน / ผม",
+   "emoji": "🙋",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v1-002",
+   "kana": "せんせい",
+   "kanji": "先生",
+   "romaji": "sensei",
+   "th": "ครู",
+   "emoji": "👩‍🏫",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v1-003",
+   "kana": "がくせい",
+   "kanji": "学生",
+   "romaji": "gakusei",
+   "th": "นักเรียน / นักศึกษา",
+   "emoji": "🎒",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v1-004",
+   "kana": "かいしゃいん",
+   "kanji": "会社員",
+   "romaji": "kaishain",
+   "th": "พนักงานบริษัท",
+   "emoji": "💼",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v1-005",
+   "kana": "いしゃ",
+   "kanji": "医者",
+   "romaji": "isha",
+   "th": "หมอ",
+   "emoji": "🩺",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v1-006",
+   "kana": "だいがく",
+   "kanji": "大学",
+   "romaji": "daigaku",
+   "th": "มหาวิทยาลัย",
+   "emoji": "🏛️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v1-007",
+   "kana": "にほん",
+   "kanji": "日本",
+   "romaji": "nihon",
+   "th": "ประเทศญี่ปุ่น",
+   "emoji": "🇯🇵",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v1-008",
+   "kana": "〜さい",
+   "kanji": "",
+   "romaji": "~sai",
+   "th": "อายุ ... ปี",
+   "emoji": "🎂",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v1-009",
+   "kana": "なん",
+   "kanji": "何",
+   "romaji": "nan",
+   "th": "อะไร",
+   "emoji": "❓",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g1-01",
+   "pattern": "N1 は N2 です",
+   "explainTh": "N1 เป็น / คือ N2 (สุภาพ) — は ในที่นี้อ่านว่า wa",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "わたしは タイ人です。",
+     "kana": "わたしは タイじんです。",
+     "th": "ฉันเป็นคนไทย",
+     "emoji": "🙋"
+    },
+    {
+     "jp": "田中さんは 先生です。",
+     "kana": "たなかさんは せんせいです。",
+     "th": "คุณทานากะเป็นครู",
+     "emoji": "👩‍🏫"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g1-02",
+   "pattern": "N1 は N2 じゃ ありません",
+   "explainTh": "N1 ไม่ใช่ N2 (รูปปฏิเสธ)",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "わたしは 学生じゃ ありません。",
+     "kana": "わたしは がくせいじゃ ありません。",
+     "th": "ฉันไม่ใช่นักเรียน",
+     "emoji": "🙅"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g1-03",
+   "pattern": "N1 は N2 ですか",
+   "explainTh": "เติม か ท้ายประโยคเพื่อเป็นคำถาม ตอบด้วย はい / いいえ",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "ナットさんは 医者ですか。…はい、医者です。",
+     "kana": "ナットさんは いしゃですか。…はい、いしゃです。",
+     "th": "คุณนัทเป็นหมอไหมคะ …ใช่ เป็นหมอ",
+     "emoji": "🩺"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g1-04",
+   "pattern": "N も",
+   "explainTh": "も = ก็ (เหมือนกัน) ใช้แทน は",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "わたしも タイ人です。",
+     "kana": "わたしも タイじんです。",
+     "th": "ฉันก็เป็นคนไทย",
+     "emoji": "🤝"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g1-05",
+   "pattern": "N1 の N2",
+   "explainTh": "の เชื่อมคำนาม = ของ / สังกัด",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "さくら大学の 学生です。",
+     "kana": "さくらだいがくの がくせいです。",
+     "th": "เป็นนักศึกษามหาวิทยาลัยซากุระ",
+     "emoji": "🏛️"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "kanji": [
+  {
+   "id": "k3-01",
+   "char": "一",
+   "part": 1,
+   "on": [
+    "イチ",
+    "イツ"
+   ],
+   "kun": [
+    "ひと(つ)"
+   ],
+   "th": "หนึ่ง",
+   "emoji": "☝️",
+   "strokes": 1,
+   "words": [
+    {
+     "jp": "一つ",
+     "kana": "ひとつ",
+     "th": "หนึ่งชิ้น"
+    },
+    {
+     "jp": "一月",
+     "kana": "いちがつ",
+     "th": "มกราคม"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k3-02",
+   "char": "二",
+   "part": 1,
+   "on": [
+    "ニ"
+   ],
+   "kun": [
+    "ふた(つ)"
+   ],
+   "th": "สอง",
+   "emoji": "✌️",
+   "strokes": 2,
+   "words": [
+    {
+     "jp": "二つ",
+     "kana": "ふたつ",
+     "th": "สองชิ้น"
+    },
+    {
+     "jp": "二人",
+     "kana": "ふたり",
+     "th": "สองคน"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k3-03",
+   "char": "三",
+   "part": 1,
+   "on": [
+    "サン"
+   ],
+   "kun": [
+    "みっ(つ)"
+   ],
+   "th": "สาม",
+   "emoji": "🥉",
+   "strokes": 3,
+   "words": [
+    {
+     "jp": "三つ",
+     "kana": "みっつ",
+     "th": "สามชิ้น"
+    },
+    {
+     "jp": "三月",
+     "kana": "さんがつ",
+     "th": "มีนาคม"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k3-04",
+   "char": "四",
+   "part": 1,
+   "on": [
+    "シ"
+   ],
+   "kun": [
+    "よ",
+    "よん",
+    "よっ(つ)"
+   ],
+   "th": "สี่",
+   "emoji": "🍀",
+   "strokes": 5,
+   "words": [
+    {
+     "jp": "四つ",
+     "kana": "よっつ",
+     "th": "สี่ชิ้น"
+    },
+    {
+     "jp": "四時",
+     "kana": "よじ",
+     "th": "สี่โมง"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k3-05",
+   "char": "五",
+   "part": 2,
+   "on": [
+    "ゴ"
+   ],
+   "kun": [
+    "いつ(つ)"
+   ],
+   "th": "ห้า",
+   "emoji": "🖐️",
+   "strokes": 4,
+   "words": [
+    {
+     "jp": "五つ",
+     "kana": "いつつ",
+     "th": "ห้าชิ้น"
+    },
+    {
+     "jp": "五月",
+     "kana": "ごがつ",
+     "th": "พฤษภาคม"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k3-06",
+   "char": "六",
+   "part": 2,
+   "on": [
+    "ロク"
+   ],
+   "kun": [
+    "むっ(つ)"
+   ],
+   "th": "หก",
+   "emoji": "🎲",
+   "strokes": 4,
+   "words": [
+    {
+     "jp": "六つ",
+     "kana": "むっつ",
+     "th": "หกชิ้น"
+    },
+    {
+     "jp": "六百",
+     "kana": "ろっぴゃく",
+     "th": "หกร้อย"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k3-07",
+   "char": "七",
+   "part": 2,
+   "on": [
+    "シチ"
+   ],
+   "kun": [
+    "なな(つ)"
+   ],
+   "th": "เจ็ด",
+   "emoji": "🌈",
+   "strokes": 2,
+   "words": [
+    {
+     "jp": "七つ",
+     "kana": "ななつ",
+     "th": "เจ็ดชิ้น"
+    },
+    {
+     "jp": "七時",
+     "kana": "しちじ",
+     "th": "เจ็ดโมง"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "reading": null,
+ "listening": [
+  {
+   "id": "l1-01",
+   "jp": "はじめまして。",
+   "kana": "はじめまして。",
+   "th": "ยินดีที่ได้รู้จัก",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l1-02",
+   "jp": "わたしは ナットです。タイから 来ました。",
+   "kana": "わたしは ナットです。タイから きました。",
+   "th": "ฉันชื่อนัท มาจากประเทศไทย",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l1-03",
+   "jp": "どうぞ よろしく おねがいします。",
+   "kana": "どうぞ よろしく おねがいします。",
+   "th": "ฝากเนื้อฝากตัวด้วยนะคะ",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1-01",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🤝",
+   "explainTh": "も = ก็ (เหมือนกัน)",
+   "grammarRef": "g1-04",
+   "checked": false,
+   "prompt": "わたし（　）タイ人です。",
+   "hintTh": "ฉัน \"ก็\" เป็นคนไทย",
+   "choices": [
+    "も",
+    "の",
+    "を",
+    "へ"
+   ],
+   "answer": "も",
+   "accept": [
+    "も"
+   ]
+  },
+  {
+   "id": "q1-02",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🏛️",
+   "explainTh": "の เชื่อมคำนาม บอกสังกัด",
+   "grammarRef": "g1-05",
+   "checked": false,
+   "prompt": "さくら大学（　）学生です。",
+   "hintTh": "",
+   "choices": [
+    "の",
+    "も",
+    "か",
+    "を"
+   ],
+   "answer": "の",
+   "accept": [
+    "の"
+   ]
+  },
+  {
+   "id": "q1-03",
+   "type": "conjugate",
+   "section": "文法",
+   "emoji": "🙅",
+   "explainTh": "ปฏิเสธคำนามใช้ じゃ ありません",
+   "grammarRef": "g1-02",
+   "checked": false,
+   "prompt": "わたしは 学生（　）。",
+   "hintTh": "ฉันไม่ใช่นักเรียน",
+   "choices": [
+    "じゃ ありません",
+    "です",
+    "ですか",
+    "の です"
+   ],
+   "answer": "じゃ ありません",
+   "accept": [
+    "じゃ ありません"
+   ]
+  },
+  {
+   "id": "q1-04",
+   "type": "order",
+   "section": "文法",
+   "emoji": "👩‍🏫",
+   "explainTh": "ประโยคที่ถูก: 田中さん は 先生 です",
+   "grammarRef": "g1-01",
+   "checked": false,
+   "prompt": "คุณทานากะเป็นครู",
+   "tokens": [
+    "田中{たなか}さん",
+    "は",
+    "先生",
+    "です"
+   ],
+   "answer": "田中{たなか}さんは先生です"
+  },
+  {
+   "id": "q1-05",
+   "type": "choose",
+   "section": "文法",
+   "emoji": "🧑",
+   "explainTh": "ถามว่า \"ใคร\" ใช้ だれ (สุภาพ: どなた)",
+   "grammarRef": "g1-03",
+   "checked": false,
+   "prompt": "เลือกประโยคที่ถูก (ถามว่าคนนั้นคือใคร)",
+   "hintTh": "",
+   "choices": [
+    "あの 人は だれですか。",
+    "あの 人は なにですか。",
+    "あの 人の だれですか。"
+   ],
+   "answer": "あの 人は だれですか。",
+   "accept": [
+    "あの 人は だれですか。"
+   ]
+  },
+  {
+   "id": "q1-06",
+   "type": "translate",
+   "section": "文法",
+   "emoji": "🩺",
+   "explainTh": "เติม か ท้ายประโยคให้เป็นคำถาม",
+   "grammarRef": "g1-03",
+   "checked": false,
+   "prompt": "คุณนัทเป็นหมอไหม",
+   "hintTh": "",
+   "choices": [
+    "ナットさんは 医者{いしゃ}ですか。",
+    "ナットさんは 医者{いしゃ}です。",
+    "ナットさんも 医者{いしゃ}です。"
+   ],
+   "answer": "ナットさんは 医者{いしゃ}ですか。",
+   "accept": [
+    "ナットさんは 医者{いしゃ}ですか。"
+   ]
+  },
+  {
+   "id": "q1-07",
+   "type": "situation",
+   "section": "文法",
+   "emoji": "🤝",
+   "explainTh": "はじめまして = ยินดีที่ได้รู้จัก",
+   "grammarRef": "g1-01",
+   "checked": false,
+   "prompt": "พบคนใหม่ครั้งแรก ควรพูดว่า",
+   "hintTh": "",
+   "choices": [
+    "はじめまして。",
+    "さようなら。",
+    "いただきます。"
+   ],
+   "answer": "はじめまして。",
+   "accept": [
+    "はじめまして。"
+   ]
+  }
+ ]
+}

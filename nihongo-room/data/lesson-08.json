@@ -1,0 +1,512 @@
+{
+ "lesson": 8,
+ "titleTh": "คำคุณศัพท์",
+ "titleJp": "きれいな 町ですね",
+ "emoji": "🌷",
+ "kanjiBookLesson": 10,
+ "notionUrl": "",
+ "vocab": [
+  {
+   "id": "v8-001",
+   "kana": "おおきい",
+   "kanji": "大きい",
+   "romaji": "ookii",
+   "th": "ใหญ่",
+   "emoji": "🐘",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v8-002",
+   "kana": "ちいさい",
+   "kanji": "小さい",
+   "romaji": "chiisai",
+   "th": "เล็ก",
+   "emoji": "🐜",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v8-003",
+   "kana": "あたらしい",
+   "kanji": "新しい",
+   "romaji": "atarashii",
+   "th": "ใหม่",
+   "emoji": "✨",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v8-004",
+   "kana": "ふるい",
+   "kanji": "古い",
+   "romaji": "furui",
+   "th": "เก่า",
+   "emoji": "🏚️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v8-005",
+   "kana": "たかい",
+   "kanji": "高い",
+   "romaji": "takai",
+   "th": "แพง / สูง",
+   "emoji": "💰",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v8-006",
+   "kana": "やすい",
+   "kanji": "安い",
+   "romaji": "yasui",
+   "th": "ถูก (ราคา)",
+   "emoji": "🏷️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v8-007",
+   "kana": "げんき",
+   "kanji": "元気",
+   "romaji": "genki",
+   "th": "สบายดี / แข็งแรง",
+   "emoji": "💪",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v8-008",
+   "kana": "しずか",
+   "kanji": "静か",
+   "romaji": "shizuka",
+   "th": "เงียบ",
+   "emoji": "🤫",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v8-009",
+   "kana": "きれい",
+   "kanji": "",
+   "romaji": "kirei",
+   "th": "สวย / สะอาด",
+   "emoji": "🌷",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v8-010",
+   "kana": "やま",
+   "kanji": "山",
+   "romaji": "yama",
+   "th": "ภูเขา",
+   "emoji": "⛰️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g8-01",
+   "pattern": "N は い-adj / な-adj です",
+   "explainTh": "คุณศัพท์มี 2 แบบ: い (ลงท้าย い) และ な",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "富士山は 高いです。",
+     "kana": "ふじさんは たかいです。",
+     "th": "ภูเขาฟูจิสูง",
+     "emoji": "🗻"
+    },
+    {
+     "jp": "この 町は 静かです。",
+     "kana": "この まちは しずかです。",
+     "th": "เมืองนี้เงียบสงบ",
+     "emoji": "🤫"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g8-02",
+   "pattern": "รูปปฏิเสธ: 〜くないです / 〜じゃ ありません",
+   "explainTh": "い-adj: ตัด い + くないです / な-adj: + じゃ ありません (いい → よくないです)",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "この 時計は 高くないです。",
+     "kana": "この とけいは たかくないです。",
+     "th": "นาฬิกาเรือนนี้ไม่แพง",
+     "emoji": "🏷️"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g8-03",
+   "pattern": "い-adj + N / な-adj + な + N",
+   "explainTh": "ขยายคำนาม: な-adj ต้องมี な",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "きれいな 花ですね。",
+     "kana": "きれいな はなですね。",
+     "th": "ดอกไม้สวยนะ",
+     "emoji": "🌷"
+    },
+    {
+     "jp": "大きい かばんです。",
+     "kana": "おおきい かばんです。",
+     "th": "เป็นกระเป๋าใบใหญ่",
+     "emoji": "🐘"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g8-04",
+   "pattern": "とても / あまり 〜ない · どう / どんな",
+   "explainTh": "とても = มาก, あまり + ปฏิเสธ = ไม่ค่อย; どう = เป็นอย่างไร, どんな N = N แบบไหน",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "日本の 生活は どうですか。…とても 楽しいです。",
+     "kana": "にほんの せいかつは どうですか。…とても たのしいです。",
+     "th": "ชีวิตที่ญี่ปุ่นเป็นอย่างไร …สนุกมาก",
+     "emoji": "🗾"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "kanji": [
+  {
+   "id": "k10-01",
+   "char": "高",
+   "part": 1,
+   "on": [
+    "コウ"
+   ],
+   "kun": [
+    "たか(い)"
+   ],
+   "th": "สูง / แพง",
+   "emoji": "🗼",
+   "strokes": 10,
+   "words": [
+    {
+     "jp": "高い",
+     "kana": "たかい",
+     "th": "สูง / แพง"
+    },
+    {
+     "jp": "高校",
+     "kana": "こうこう",
+     "th": "มัธยมปลาย"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k10-02",
+   "char": "安",
+   "part": 1,
+   "on": [
+    "アン"
+   ],
+   "kun": [
+    "やす(い)"
+   ],
+   "th": "ถูก / สบายใจ",
+   "emoji": "🏷️",
+   "strokes": 6,
+   "words": [
+    {
+     "jp": "安い",
+     "kana": "やすい",
+     "th": "ถูก (ราคา)"
+    },
+    {
+     "jp": "安心",
+     "kana": "あんしん",
+     "th": "สบายใจ"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k10-03",
+   "char": "白",
+   "part": 2,
+   "on": [
+    "ハク"
+   ],
+   "kun": [
+    "しろ(い)"
+   ],
+   "th": "ขาว",
+   "emoji": "🤍",
+   "strokes": 5,
+   "words": [
+    {
+     "jp": "白い",
+     "kana": "しろい",
+     "th": "สีขาว"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k10-04",
+   "char": "黒",
+   "part": 2,
+   "on": [
+    "コク"
+   ],
+   "kun": [
+    "くろ(い)"
+   ],
+   "th": "ดำ",
+   "emoji": "🖤",
+   "strokes": 11,
+   "words": [
+    {
+     "jp": "黒い",
+     "kana": "くろい",
+     "th": "สีดำ"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k10-05",
+   "char": "赤",
+   "part": 2,
+   "on": [
+    "セキ"
+   ],
+   "kun": [
+    "あか(い)"
+   ],
+   "th": "แดง",
+   "emoji": "❤️",
+   "strokes": 7,
+   "words": [
+    {
+     "jp": "赤い",
+     "kana": "あかい",
+     "th": "สีแดง"
+    },
+    {
+     "jp": "赤ちゃん",
+     "kana": "あかちゃん",
+     "th": "ทารก"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k10-06",
+   "char": "青",
+   "part": 2,
+   "on": [
+    "セイ"
+   ],
+   "kun": [
+    "あお(い)"
+   ],
+   "th": "สีฟ้า / น้ำเงิน",
+   "emoji": "💙",
+   "strokes": 8,
+   "words": [
+    {
+     "jp": "青い",
+     "kana": "あおい",
+     "th": "สีฟ้า"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "reading": null,
+ "listening": [
+  {
+   "id": "l8-01",
+   "jp": "お元気ですか。",
+   "kana": "おげんきですか。",
+   "th": "สบายดีไหม",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l8-02",
+   "jp": "この 店は 安いです。そして、おいしいです。",
+   "kana": "この みせは やすいです。そして、おいしいです。",
+   "th": "ร้านนี้ราคาถูก แล้วก็อร่อยด้วย",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l8-03",
+   "jp": "あまり 寒くないです。",
+   "kana": "あまり さむくないです。",
+   "th": "ไม่ค่อยหนาว",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q8-01",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🌷",
+   "explainTh": "な-adj ขยายคำนามต้องมี な",
+   "grammarRef": "g8-03",
+   "checked": false,
+   "prompt": "きれい（　）花ですね。",
+   "hintTh": "",
+   "choices": [
+    "な",
+    "い",
+    "の",
+    "を"
+   ],
+   "answer": "な",
+   "accept": [
+    "な"
+   ]
+  },
+  {
+   "id": "q8-02",
+   "type": "conjugate",
+   "section": "文法",
+   "emoji": "🏷️",
+   "explainTh": "い-adj ปฏิเสธ: ตัด い แล้วเติม くないです",
+   "grammarRef": "g8-02",
+   "checked": false,
+   "prompt": "この 時計{とけい}は 高（　）です。",
+   "hintTh": "นาฬิกาเรือนนี้ \"ไม่\" แพง",
+   "choices": [
+    "くない",
+    "じゃない",
+    "いない",
+    "くて"
+   ],
+   "answer": "くない",
+   "accept": [
+    "くない"
+   ]
+  },
+  {
+   "id": "q8-03",
+   "type": "conjugate",
+   "section": "文法",
+   "emoji": "🤫",
+   "explainTh": "な-adj ปฏิเสธใช้ じゃ ありません",
+   "grammarRef": "g8-02",
+   "checked": false,
+   "prompt": "この 町{まち}は 静{しず}か（　）。",
+   "hintTh": "เมืองนี้ \"ไม่\" เงียบ",
+   "choices": [
+    "じゃ ありません",
+    "くないです",
+    "ないです",
+    "じゃないでした"
+   ],
+   "answer": "じゃ ありません",
+   "accept": [
+    "じゃ ありません"
+   ]
+  },
+  {
+   "id": "q8-04",
+   "type": "order",
+   "section": "文法",
+   "emoji": "🗻",
+   "explainTh": "ประโยคที่ถูก: 富士山 は 高い です",
+   "grammarRef": "g8-01",
+   "checked": false,
+   "prompt": "ภูเขาฟูจิสูง",
+   "tokens": [
+    "富士山{ふじさん}",
+    "は",
+    "高い",
+    "です"
+   ],
+   "answer": "富士山{ふじさん}は高いです"
+  },
+  {
+   "id": "q8-05",
+   "type": "choose",
+   "section": "文法",
+   "emoji": "❄️",
+   "explainTh": "あまり ใช้คู่กับรูปปฏิเสธ",
+   "grammarRef": "g8-04",
+   "checked": false,
+   "prompt": "เลือกประโยคที่ถูก",
+   "hintTh": "",
+   "choices": [
+    "あまり 寒{さむ}くないです。",
+    "あまり 寒{さむ}いです。",
+    "とても 寒{さむ}くないです。"
+   ],
+   "answer": "あまり 寒{さむ}くないです。",
+   "accept": [
+    "あまり 寒{さむ}くないです。"
+   ]
+  },
+  {
+   "id": "q8-06",
+   "type": "translate",
+   "section": "文法",
+   "emoji": "🗾",
+   "explainTh": "どうですか = เป็นอย่างไร",
+   "grammarRef": "g8-04",
+   "checked": false,
+   "prompt": "ชีวิตที่ญี่ปุ่นเป็นอย่างไร",
+   "hintTh": "",
+   "choices": [
+    "日本の 生活{せいかつ}は どうですか。",
+    "日本の 生活{せいかつ}は どんなですか。",
+    "日本の 生活{せいかつ}は 何ですか。"
+   ],
+   "answer": "日本の 生活{せいかつ}は どうですか。",
+   "accept": [
+    "日本の 生活{せいかつ}は どうですか。"
+   ]
+  },
+  {
+   "id": "q8-07",
+   "type": "situation",
+   "section": "文法",
+   "emoji": "🍜",
+   "explainTh": "〜ですね ใช้ชม / ชวนเห็นด้วย",
+   "grammarRef": "g8-01",
+   "checked": false,
+   "prompt": "อยากชมว่าอาหารอร่อย",
+   "hintTh": "",
+   "choices": [
+    "おいしいですね。",
+    "おいしくないです。",
+    "まずいですね。"
+   ],
+   "answer": "おいしいですね。",
+   "accept": [
+    "おいしいですね。"
+   ]
+  }
+ ]
+}

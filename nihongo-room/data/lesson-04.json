@@ -1,0 +1,524 @@
+{
+ "lesson": 4,
+ "titleTh": "เวลาและกิจวัตร",
+ "titleJp": "今 何時ですか",
+ "emoji": "⏰",
+ "kanjiBookLesson": 6,
+ "notionUrl": "",
+ "vocab": [
+  {
+   "id": "v4-001",
+   "kana": "おきます",
+   "kanji": "起きます",
+   "romaji": "okimasu",
+   "th": "ตื่นนอน",
+   "emoji": "⏰",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v4-002",
+   "kana": "ねます",
+   "kanji": "寝ます",
+   "romaji": "nemasu",
+   "th": "นอน",
+   "emoji": "😴",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v4-003",
+   "kana": "はたらきます",
+   "kanji": "働きます",
+   "romaji": "hatarakimasu",
+   "th": "ทำงาน",
+   "emoji": "💼",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v4-004",
+   "kana": "べんきょうします",
+   "kanji": "勉強します",
+   "romaji": "benkyoushimasu",
+   "th": "เรียน / ทบทวน",
+   "emoji": "📚",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v4-005",
+   "kana": "やすみます",
+   "kanji": "休みます",
+   "romaji": "yasumimasu",
+   "th": "พัก / หยุด",
+   "emoji": "🛋️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v4-006",
+   "kana": "いま",
+   "kanji": "今",
+   "romaji": "ima",
+   "th": "ตอนนี้",
+   "emoji": "⌛",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v4-007",
+   "kana": "ごぜん",
+   "kanji": "午前",
+   "romaji": "gozen",
+   "th": "ช่วงเช้า (a.m.)",
+   "emoji": "🌅",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v4-008",
+   "kana": "ごご",
+   "kanji": "午後",
+   "romaji": "gogo",
+   "th": "ช่วงบ่าย (p.m.)",
+   "emoji": "🌇",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v4-009",
+   "kana": "まいにち",
+   "kanji": "毎日",
+   "romaji": "mainichi",
+   "th": "ทุกวัน",
+   "emoji": "📆",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v4-010",
+   "kana": "にちようび",
+   "kanji": "日曜日",
+   "romaji": "nichiyoubi",
+   "th": "วันอาทิตย์",
+   "emoji": "☀️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g4-01",
+   "pattern": "今 〜時〜分 です",
+   "explainTh": "บอกเวลา: 時 = โมง, 分 = นาที, 半 = ครึ่ง",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "今 九時半です。",
+     "kana": "いま くじはんです。",
+     "th": "ตอนนี้ 9 โมงครึ่ง",
+     "emoji": "🕘"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g4-02",
+   "pattern": "V-ます / V-ません",
+   "explainTh": "กริยาสุภาพ: ทำ / ไม่ทำ (ปัจจุบัน-อนาคต)",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "毎日 六時に 起きます。",
+     "kana": "まいにち ろくじに おきます。",
+     "th": "ตื่นตอน 6 โมงทุกวัน",
+     "emoji": "⏰"
+    },
+    {
+     "jp": "日曜日は 働きません。",
+     "kana": "にちようびは はたらきません。",
+     "th": "วันอาทิตย์ไม่ทำงาน",
+     "emoji": "🛋️"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g4-03",
+   "pattern": "V-ました / V-ませんでした",
+   "explainTh": "อดีต: ทำแล้ว / ไม่ได้ทำ",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "きのう 勉強しました。",
+     "kana": "きのう べんきょうしました。",
+     "th": "เมื่อวานทบทวนบทเรียนแล้ว",
+     "emoji": "📚"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g4-04",
+   "pattern": "〜から 〜まで",
+   "explainTh": "ตั้งแต่ ... ถึง ...",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "九時から 五時まで 働きます。",
+     "kana": "くじから ごじまで はたらきます。",
+     "th": "ทำงานตั้งแต่ 9 โมงถึง 5 โมง",
+     "emoji": "🏢"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "kanji": [
+  {
+   "id": "k6-01",
+   "char": "時",
+   "part": 1,
+   "on": [
+    "ジ"
+   ],
+   "kun": [
+    "とき"
+   ],
+   "th": "เวลา / โมง",
+   "emoji": "🕐",
+   "strokes": 10,
+   "words": [
+    {
+     "jp": "時間",
+     "kana": "じかん",
+     "th": "เวลา"
+    },
+    {
+     "jp": "何時",
+     "kana": "なんじ",
+     "th": "กี่โมง"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k6-02",
+   "char": "分",
+   "part": 1,
+   "on": [
+    "ブン",
+    "フン"
+   ],
+   "kun": [
+    "わ(ける)",
+    "わ(かる)"
+   ],
+   "th": "นาที / แบ่ง",
+   "emoji": "⏱️",
+   "strokes": 4,
+   "words": [
+    {
+     "jp": "五分",
+     "kana": "ごふん",
+     "th": "ห้านาที"
+    },
+    {
+     "jp": "十分",
+     "kana": "じゅっぷん",
+     "th": "สิบนาที (อ่าน じっぷん ก็ได้ · ถ้าอ่าน じゅうぶん = เพียงพอ)"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k6-03",
+   "char": "半",
+   "part": 1,
+   "on": [
+    "ハン"
+   ],
+   "kun": [
+    "なか(ば)"
+   ],
+   "th": "ครึ่ง",
+   "emoji": "🌓",
+   "strokes": 5,
+   "words": [
+    {
+     "jp": "九時半",
+     "kana": "くじはん",
+     "th": "เก้าโมงครึ่ง"
+    },
+    {
+     "jp": "半分",
+     "kana": "はんぶん",
+     "th": "ครึ่งหนึ่ง"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k6-04",
+   "char": "月",
+   "part": 2,
+   "on": [
+    "ゲツ",
+    "ガツ"
+   ],
+   "kun": [
+    "つき"
+   ],
+   "th": "เดือน / ดวงจันทร์",
+   "emoji": "🌙",
+   "strokes": 4,
+   "words": [
+    {
+     "jp": "月曜日",
+     "kana": "げつようび",
+     "th": "วันจันทร์"
+    },
+    {
+     "jp": "一月",
+     "kana": "いちがつ",
+     "th": "มกราคม"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k6-05",
+   "char": "火",
+   "part": 2,
+   "on": [
+    "カ"
+   ],
+   "kun": [
+    "ひ"
+   ],
+   "th": "ไฟ",
+   "emoji": "🔥",
+   "strokes": 4,
+   "words": [
+    {
+     "jp": "火曜日",
+     "kana": "かようび",
+     "th": "วันอังคาร"
+    },
+    {
+     "jp": "火",
+     "kana": "ひ",
+     "th": "ไฟ"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k6-06",
+   "char": "水",
+   "part": 2,
+   "on": [
+    "スイ"
+   ],
+   "kun": [
+    "みず"
+   ],
+   "th": "น้ำ",
+   "emoji": "💧",
+   "strokes": 4,
+   "words": [
+    {
+     "jp": "水",
+     "kana": "みず",
+     "th": "น้ำ"
+    },
+    {
+     "jp": "水曜日",
+     "kana": "すいようび",
+     "th": "วันพุธ"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "reading": null,
+ "listening": [
+  {
+   "id": "l4-01",
+   "jp": "今 何時ですか。",
+   "kana": "いま なんじですか。",
+   "th": "ตอนนี้กี่โมง",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l4-02",
+   "jp": "毎晩 十一時に 寝ます。",
+   "kana": "まいばん じゅういちじに ねます。",
+   "th": "นอนตอน 5 ทุ่มทุกคืน",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l4-03",
+   "jp": "月曜日から 金曜日まで 働きます。",
+   "kana": "げつようびから きんようびまで はたらきます。",
+   "th": "ทำงานวันจันทร์ถึงวันศุกร์",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q4-01",
+   "type": "conjugate",
+   "section": "文法",
+   "emoji": "📚",
+   "explainTh": "อดีตปฏิเสธใช้ ませんでした",
+   "grammarRef": "g4-03",
+   "checked": false,
+   "prompt": "きのう 勉強{べんきょう}し（　）。",
+   "hintTh": "เมื่อวาน \"ไม่ได้\" ทบทวน",
+   "choices": [
+    "ませんでした",
+    "ました",
+    "ます",
+    "ません"
+   ],
+   "answer": "ませんでした",
+   "accept": [
+    "ませんでした"
+   ]
+  },
+  {
+   "id": "q4-02",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🏢",
+   "explainTh": "〜から〜まで = ตั้งแต่ ... ถึง ...",
+   "grammarRef": "g4-04",
+   "checked": false,
+   "prompt": "九時（　）五時まで 働{はたら}きます。",
+   "hintTh": "",
+   "choices": [
+    "から",
+    "まで",
+    "に",
+    "の"
+   ],
+   "answer": "から",
+   "accept": [
+    "から"
+   ]
+  },
+  {
+   "id": "q4-03",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "⏰",
+   "explainTh": "บอกเวลาที่ชัดเจนใช้ に",
+   "grammarRef": "g4-02",
+   "checked": false,
+   "prompt": "毎朝{まいあさ} 六時（　）起{お}きます。",
+   "hintTh": "",
+   "choices": [
+    "に",
+    "で",
+    "を",
+    "が"
+   ],
+   "answer": "に",
+   "accept": [
+    "に"
+   ]
+  },
+  {
+   "id": "q4-04",
+   "type": "order",
+   "section": "文法",
+   "emoji": "🕘",
+   "explainTh": "ประโยคที่ถูก: 今 九時 半 です",
+   "grammarRef": "g4-01",
+   "checked": false,
+   "prompt": "ตอนนี้ 9 โมงครึ่ง",
+   "tokens": [
+    "今",
+    "九時",
+    "半",
+    "です"
+   ],
+   "answer": "今九時半です"
+  },
+  {
+   "id": "q4-05",
+   "type": "choose",
+   "section": "文法",
+   "emoji": "📅",
+   "explainTh": "きのう (เมื่อวาน) ใช้รูปอดีต ました",
+   "grammarRef": "g4-03",
+   "checked": false,
+   "prompt": "เลือกประโยคที่ถูก",
+   "hintTh": "",
+   "choices": [
+    "きのう 働{はたら}きました。",
+    "あした 働{はたら}きました。",
+    "きのう 働{はたら}きます。"
+   ],
+   "answer": "きのう 働{はたら}きました。",
+   "accept": [
+    "きのう 働{はたら}きました。"
+   ]
+  },
+  {
+   "id": "q4-06",
+   "type": "translate",
+   "section": "文法",
+   "emoji": "🛋️",
+   "explainTh": "ปฏิเสธปัจจุบันใช้ ません",
+   "grammarRef": "g4-02",
+   "checked": false,
+   "prompt": "วันอาทิตย์ไม่ทำงาน",
+   "hintTh": "",
+   "choices": [
+    "日曜日{にちようび}は 働{はたら}きません。",
+    "日曜日{にちようび}は 働{はたら}きます。",
+    "日曜日{にちようび}は 休みました。"
+   ],
+   "answer": "日曜日{にちようび}は 働{はたら}きません。",
+   "accept": [
+    "日曜日{にちようび}は 働{はたら}きません。"
+   ]
+  },
+  {
+   "id": "q4-07",
+   "type": "situation",
+   "section": "文法",
+   "emoji": "🏦",
+   "explainTh": "何時から = ตั้งแต่กี่โมง",
+   "grammarRef": "g4-04",
+   "checked": false,
+   "prompt": "อยากรู้ว่าธนาคารเปิดกี่โมง ควรถามว่า",
+   "hintTh": "",
+   "choices": [
+    "銀行{ぎんこう}は 何時からですか。",
+    "銀行{ぎんこう}は どこですか。",
+    "銀行{ぎんこう}は いくらですか。"
+   ],
+   "answer": "銀行{ぎんこう}は 何時からですか。",
+   "accept": [
+    "銀行{ぎんこう}は 何時からですか。"
+   ]
+  }
+ ]
+}

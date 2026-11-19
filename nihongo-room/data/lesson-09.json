@@ -1,0 +1,530 @@
+{
+ "lesson": 9,
+ "titleTh": "ชอบ เก่ง และเข้าใจ",
+ "titleJp": "好きですか",
+ "emoji": "💕",
+ "kanjiBookLesson": 11,
+ "notionUrl": "",
+ "vocab": [
+  {
+   "id": "v9-001",
+   "kana": "すき",
+   "kanji": "好き",
+   "romaji": "suki",
+   "th": "ชอบ",
+   "emoji": "🥰",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v9-002",
+   "kana": "きらい",
+   "kanji": "",
+   "romaji": "kirai",
+   "th": "ไม่ชอบ",
+   "emoji": "😖",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v9-003",
+   "kana": "じょうず",
+   "kanji": "上手",
+   "romaji": "jouzu",
+   "th": "เก่ง",
+   "emoji": "👍",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v9-004",
+   "kana": "へた",
+   "kanji": "下手",
+   "romaji": "heta",
+   "th": "ไม่เก่ง",
+   "emoji": "😅",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v9-005",
+   "kana": "りょうり",
+   "kanji": "料理",
+   "romaji": "ryouri",
+   "th": "อาหาร / การทำอาหาร",
+   "emoji": "🍳",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v9-006",
+   "kana": "おんがく",
+   "kanji": "音楽",
+   "romaji": "ongaku",
+   "th": "ดนตรี",
+   "emoji": "🎵",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v9-007",
+   "kana": "うた",
+   "kanji": "歌",
+   "romaji": "uta",
+   "th": "เพลง",
+   "emoji": "🎤",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v9-008",
+   "kana": "かんじ",
+   "kanji": "漢字",
+   "romaji": "kanji",
+   "th": "คันจิ",
+   "emoji": "🈶",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v9-009",
+   "kana": "ようじ",
+   "kanji": "用事",
+   "romaji": "youji",
+   "th": "ธุระ",
+   "emoji": "📌",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v9-010",
+   "kana": "やくそく",
+   "kanji": "約束",
+   "romaji": "yakusoku",
+   "th": "นัด / สัญญา",
+   "emoji": "🤙",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g9-01",
+   "pattern": "N が 好きです / きらいです",
+   "explainTh": "สิ่งที่ชอบหรือไม่ชอบใช้คำช่วย が",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "音楽が 好きです。",
+     "kana": "おんがくが すきです。",
+     "th": "ชอบดนตรี",
+     "emoji": "🎵"
+    },
+    {
+     "jp": "わたしは 犬が きらいです。",
+     "kana": "わたしは いぬが きらいです。",
+     "th": "ฉันไม่ชอบสุนัข",
+     "emoji": "🐕"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g9-02",
+   "pattern": "N が 上手です / 下手です",
+   "explainTh": "บอกว่าเก่งหรือไม่เก่งเรื่องอะไร (ไม่ใช้ 上手 ชมตัวเอง)",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "ナットさんは 料理が 上手です。",
+     "kana": "ナットさんは りょうりが じょうずです。",
+     "th": "คุณนัททำอาหารเก่ง",
+     "emoji": "🍳"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g9-03",
+   "pattern": "N が わかります / あります",
+   "explainTh": "わかります = เข้าใจ, あります = มี (เวลา เงิน นัด)",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "日本語が 少し わかります。",
+     "kana": "にほんごが すこし わかります。",
+     "th": "เข้าใจภาษาญี่ปุ่นนิดหน่อย",
+     "emoji": "🈶"
+    },
+    {
+     "jp": "今日は 時間が ありません。",
+     "kana": "きょうは じかんが ありません。",
+     "th": "วันนี้ไม่มีเวลา",
+     "emoji": "⏳"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g9-04",
+   "pattern": "〜から (เพราะ) · どうして",
+   "explainTh": "ประโยคเหตุผล + から = เพราะ ...; どうして = ทำไม",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "用事が ありますから、帰ります。",
+     "kana": "ようじが ありますから、かえります。",
+     "th": "เพราะมีธุระ เลยจะกลับ",
+     "emoji": "📌"
+    },
+    {
+     "jp": "どうして 来ませんでしたか。…約束が ありましたから。",
+     "kana": "どうして きませんでしたか。…やくそくが ありましたから。",
+     "th": "ทำไมไม่มา …เพราะมีนัด",
+     "emoji": "🤔"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "kanji": [
+  {
+   "id": "k11-01",
+   "char": "上",
+   "part": 1,
+   "on": [
+    "ジョウ"
+   ],
+   "kun": [
+    "うえ",
+    "あ(がる)"
+   ],
+   "th": "บน",
+   "emoji": "⬆️",
+   "strokes": 3,
+   "words": [
+    {
+     "jp": "上",
+     "kana": "うえ",
+     "th": "ข้างบน"
+    },
+    {
+     "jp": "上手",
+     "kana": "じょうず",
+     "th": "เก่ง"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k11-02",
+   "char": "下",
+   "part": 1,
+   "on": [
+    "カ",
+    "ゲ"
+   ],
+   "kun": [
+    "した",
+    "さ(がる)"
+   ],
+   "th": "ล่าง",
+   "emoji": "⬇️",
+   "strokes": 3,
+   "words": [
+    {
+     "jp": "下",
+     "kana": "した",
+     "th": "ข้างล่าง"
+    },
+    {
+     "jp": "地下鉄",
+     "kana": "ちかてつ",
+     "th": "รถไฟใต้ดิน"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k11-03",
+   "char": "前",
+   "part": 2,
+   "on": [
+    "ゼン"
+   ],
+   "kun": [
+    "まえ"
+   ],
+   "th": "หน้า / ก่อน",
+   "emoji": "⏪",
+   "strokes": 9,
+   "words": [
+    {
+     "jp": "前",
+     "kana": "まえ",
+     "th": "ข้างหน้า"
+    },
+    {
+     "jp": "名前",
+     "kana": "なまえ",
+     "th": "ชื่อ"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k11-04",
+   "char": "後",
+   "part": 2,
+   "on": [
+    "ゴ",
+    "コウ"
+   ],
+   "kun": [
+    "うし(ろ)",
+    "あと"
+   ],
+   "th": "หลัง",
+   "emoji": "⏩",
+   "strokes": 9,
+   "words": [
+    {
+     "jp": "後ろ",
+     "kana": "うしろ",
+     "th": "ข้างหลัง"
+    },
+    {
+     "jp": "午後",
+     "kana": "ごご",
+     "th": "ช่วงบ่าย"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k11-05",
+   "char": "右",
+   "part": 2,
+   "on": [
+    "ウ",
+    "ユウ"
+   ],
+   "kun": [
+    "みぎ"
+   ],
+   "th": "ขวา",
+   "emoji": "👉",
+   "strokes": 5,
+   "words": [
+    {
+     "jp": "右",
+     "kana": "みぎ",
+     "th": "ขวา"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k11-06",
+   "char": "左",
+   "part": 2,
+   "on": [
+    "サ"
+   ],
+   "kun": [
+    "ひだり"
+   ],
+   "th": "ซ้าย",
+   "emoji": "👈",
+   "strokes": 5,
+   "words": [
+    {
+     "jp": "左",
+     "kana": "ひだり",
+     "th": "ซ้าย"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "reading": null,
+ "listening": [
+  {
+   "id": "l9-01",
+   "jp": "カラオケが 好きですか。…はい、大好きです。",
+   "kana": "カラオケが すきですか。…はい、だいすきです。",
+   "th": "ชอบคาราโอเกะไหม …ชอบมาก",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l9-02",
+   "jp": "漢字が わかりますか。…いいえ、あまり わかりません。",
+   "kana": "かんじが わかりますか。…いいえ、あまり わかりません。",
+   "th": "เข้าใจคันจิไหม …ไม่ค่อยเข้าใจ",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l9-03",
+   "jp": "時間が ありませんから、タクシーで 行きます。",
+   "kana": "じかんが ありませんから、タクシーで いきます。",
+   "th": "เพราะไม่มีเวลา เลยจะนั่งแท็กซี่ไป",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q9-01",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🎵",
+   "explainTh": "好き / きらい ใช้ が",
+   "grammarRef": "g9-01",
+   "checked": false,
+   "prompt": "音楽{おんがく}（　）好{す}きです。",
+   "hintTh": "",
+   "choices": [
+    "が",
+    "を",
+    "に",
+    "で"
+   ],
+   "answer": "が",
+   "accept": [
+    "が"
+   ]
+  },
+  {
+   "id": "q9-02",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🈶",
+   "explainTh": "わかります ใช้ が",
+   "grammarRef": "g9-03",
+   "checked": false,
+   "prompt": "日本語（　）少し わかります。",
+   "hintTh": "",
+   "choices": [
+    "が",
+    "を",
+    "で",
+    "へ"
+   ],
+   "answer": "が",
+   "accept": [
+    "が"
+   ]
+  },
+  {
+   "id": "q9-03",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "📌",
+   "explainTh": "〜から = เพราะ",
+   "grammarRef": "g9-04",
+   "checked": false,
+   "prompt": "用事{ようじ}が あります（　）、帰{かえ}ります。",
+   "hintTh": "\"เพราะ\" มีธุระ เลยจะกลับ",
+   "choices": [
+    "から",
+    "まで",
+    "と",
+    "が"
+   ],
+   "answer": "から",
+   "accept": [
+    "から"
+   ]
+  },
+  {
+   "id": "q9-04",
+   "type": "order",
+   "section": "文法",
+   "emoji": "🍳",
+   "explainTh": "ประโยคที่ถูก: ナットさん は 料理 が 上手です",
+   "grammarRef": "g9-02",
+   "checked": false,
+   "prompt": "คุณนัททำอาหารเก่ง",
+   "tokens": [
+    "ナットさん",
+    "は",
+    "料理{りょうり}",
+    "が",
+    "上手です"
+   ],
+   "answer": "ナットさんは料理{りょうり}が上手です"
+  },
+  {
+   "id": "q9-05",
+   "type": "choose",
+   "section": "文法",
+   "emoji": "💸",
+   "explainTh": "あります ใช้ が",
+   "grammarRef": "g9-03",
+   "checked": false,
+   "prompt": "เลือกประโยคที่ถูก",
+   "hintTh": "",
+   "choices": [
+    "お金が ありません。",
+    "お金を ありません。",
+    "お金に ありません。"
+   ],
+   "answer": "お金が ありません。",
+   "accept": [
+    "お金が ありません。"
+   ]
+  },
+  {
+   "id": "q9-06",
+   "type": "translate",
+   "section": "文法",
+   "emoji": "🤔",
+   "explainTh": "どうして = ทำไม",
+   "grammarRef": "g9-04",
+   "checked": false,
+   "prompt": "ทำไมเมื่อวานไม่มา",
+   "hintTh": "",
+   "choices": [
+    "どうして きのう 来ませんでしたか。",
+    "いつ きのう 来ましたか。",
+    "どこへ きのう 行きましたか。"
+   ],
+   "answer": "どうして きのう 来ませんでしたか。",
+   "accept": [
+    "どうして きのう 来ませんでしたか。"
+   ]
+  },
+  {
+   "id": "q9-07",
+   "type": "situation",
+   "section": "文法",
+   "emoji": "🎤",
+   "explainTh": "ちょっと… = ปฏิเสธอย่างนุ่มนวล",
+   "grammarRef": "g9-04",
+   "checked": false,
+   "prompt": "เพื่อนชวนไปคาราโอเกะ แต่วันนี้ไม่สะดวก",
+   "hintTh": "",
+   "choices": [
+    "すみません、今日は ちょっと…。",
+    "ええ、行きましょう。",
+    "いただきます。"
+   ],
+   "answer": "すみません、今日は ちょっと…。",
+   "accept": [
+    "すみません、今日は ちょっと…。"
+   ]
+  }
+ ]
+}

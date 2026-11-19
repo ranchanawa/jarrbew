@@ -1,0 +1,522 @@
+{
+ "lesson": 5,
+ "titleTh": "ไป มา กลับ",
+ "titleJp": "どこへ 行きますか",
+ "emoji": "🚃",
+ "kanjiBookLesson": 7,
+ "notionUrl": "",
+ "vocab": [
+  {
+   "id": "v5-001",
+   "kana": "いきます",
+   "kanji": "行きます",
+   "romaji": "ikimasu",
+   "th": "ไป",
+   "emoji": "🚶",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v5-002",
+   "kana": "きます",
+   "kanji": "来ます",
+   "romaji": "kimasu",
+   "th": "มา",
+   "emoji": "🏃",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v5-003",
+   "kana": "かえります",
+   "kanji": "帰ります",
+   "romaji": "kaerimasu",
+   "th": "กลับ (บ้าน)",
+   "emoji": "🏠",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v5-004",
+   "kana": "でんしゃ",
+   "kanji": "電車",
+   "romaji": "densha",
+   "th": "รถไฟฟ้า",
+   "emoji": "🚃",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v5-005",
+   "kana": "ひこうき",
+   "kanji": "飛行機",
+   "romaji": "hikouki",
+   "th": "เครื่องบิน",
+   "emoji": "✈️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v5-006",
+   "kana": "バス",
+   "kanji": "",
+   "romaji": "basu",
+   "th": "รถบัส",
+   "emoji": "🚌",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v5-007",
+   "kana": "あるいて",
+   "kanji": "歩いて",
+   "romaji": "aruite",
+   "th": "เดินไป",
+   "emoji": "👣",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v5-008",
+   "kana": "ともだち",
+   "kanji": "友達",
+   "romaji": "tomodachi",
+   "th": "เพื่อน",
+   "emoji": "🧑‍🤝‍🧑",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v5-009",
+   "kana": "らいしゅう",
+   "kanji": "来週",
+   "romaji": "raishuu",
+   "th": "สัปดาห์หน้า",
+   "emoji": "📅",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v5-010",
+   "kana": "たんじょうび",
+   "kanji": "誕生日",
+   "romaji": "tanjoubi",
+   "th": "วันเกิด",
+   "emoji": "🎂",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g5-01",
+   "pattern": "場所 へ 行きます / 来ます / 帰ります",
+   "explainTh": "へ บอกทิศทาง อ่านว่า e",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "あした 東京へ 行きます。",
+     "kana": "あした とうきょうへ いきます。",
+     "th": "พรุ่งนี้จะไปโตเกียว",
+     "emoji": "🗼"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g5-02",
+   "pattern": "乗り物 で 行きます",
+   "explainTh": "で บอกพาหนะที่ใช้ (เดินใช้ 歩いて ไม่ต้องมี で)",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "電車で 会社へ 行きます。",
+     "kana": "でんしゃで かいしゃへ いきます。",
+     "th": "ไปบริษัทด้วยรถไฟฟ้า",
+     "emoji": "🚃"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g5-03",
+   "pattern": "人 と 行きます",
+   "explainTh": "と = กับ (ใคร)",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "友達と 京都へ 行きました。",
+     "kana": "ともだちと きょうとへ いきました。",
+     "th": "ไปเกียวโตกับเพื่อนมาแล้ว",
+     "emoji": "🧑‍🤝‍🧑"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g5-04",
+   "pattern": "いつ / どこ[へ]も 行きません",
+   "explainTh": "いつ = เมื่อไร; どこも + ปฏิเสธ = ไม่ไปไหนเลย",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "日曜日は どこも 行きません。",
+     "kana": "にちようびは どこも いきません。",
+     "th": "วันอาทิตย์ไม่ไปไหนเลย",
+     "emoji": "🛋️"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "kanji": [
+  {
+   "id": "k7-01",
+   "char": "木",
+   "part": 1,
+   "on": [
+    "モク",
+    "ボク"
+   ],
+   "kun": [
+    "き"
+   ],
+   "th": "ต้นไม้",
+   "emoji": "🌳",
+   "strokes": 4,
+   "words": [
+    {
+     "jp": "木",
+     "kana": "き",
+     "th": "ต้นไม้"
+    },
+    {
+     "jp": "木曜日",
+     "kana": "もくようび",
+     "th": "วันพฤหัสบดี"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k7-02",
+   "char": "金",
+   "part": 1,
+   "on": [
+    "キン",
+    "コン"
+   ],
+   "kun": [
+    "かね"
+   ],
+   "th": "เงิน / ทอง",
+   "emoji": "🪙",
+   "strokes": 8,
+   "words": [
+    {
+     "jp": "お金",
+     "kana": "おかね",
+     "th": "เงิน"
+    },
+    {
+     "jp": "金曜日",
+     "kana": "きんようび",
+     "th": "วันศุกร์"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k7-03",
+   "char": "土",
+   "part": 1,
+   "on": [
+    "ド",
+    "ト"
+   ],
+   "kun": [
+    "つち"
+   ],
+   "th": "ดิน",
+   "emoji": "🟫",
+   "strokes": 3,
+   "words": [
+    {
+     "jp": "土曜日",
+     "kana": "どようび",
+     "th": "วันเสาร์"
+    },
+    {
+     "jp": "土",
+     "kana": "つち",
+     "th": "ดิน"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k7-04",
+   "char": "行",
+   "part": 2,
+   "on": [
+    "コウ",
+    "ギョウ"
+   ],
+   "kun": [
+    "い(く)",
+    "おこな(う)"
+   ],
+   "th": "ไป",
+   "emoji": "🚶",
+   "strokes": 6,
+   "words": [
+    {
+     "jp": "行きます",
+     "kana": "いきます",
+     "th": "ไป"
+    },
+    {
+     "jp": "銀行",
+     "kana": "ぎんこう",
+     "th": "ธนาคาร"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k7-05",
+   "char": "来",
+   "part": 2,
+   "on": [
+    "ライ"
+   ],
+   "kun": [
+    "く(る)",
+    "き(ます)"
+   ],
+   "th": "มา",
+   "emoji": "🏃",
+   "strokes": 7,
+   "words": [
+    {
+     "jp": "来ます",
+     "kana": "きます",
+     "th": "มา"
+    },
+    {
+     "jp": "来週",
+     "kana": "らいしゅう",
+     "th": "สัปดาห์หน้า"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k7-06",
+   "char": "食",
+   "part": 2,
+   "on": [
+    "ショク"
+   ],
+   "kun": [
+    "た(べる)"
+   ],
+   "th": "กิน / อาหาร",
+   "emoji": "🍽️",
+   "strokes": 9,
+   "words": [
+    {
+     "jp": "食べます",
+     "kana": "たべます",
+     "th": "กิน"
+    },
+    {
+     "jp": "食堂",
+     "kana": "しょくどう",
+     "th": "โรงอาหาร"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "reading": null,
+ "listening": [
+  {
+   "id": "l5-01",
+   "jp": "いつ 日本へ 来ましたか。",
+   "kana": "いつ にほんへ きましたか。",
+   "th": "มาญี่ปุ่นเมื่อไร",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l5-02",
+   "jp": "バスで うちへ 帰ります。",
+   "kana": "バスで うちへ かえります。",
+   "th": "กลับบ้านด้วยรถบัส",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l5-03",
+   "jp": "来年 タイへ 帰ります。",
+   "kana": "らいねん タイへ かえります。",
+   "th": "ปีหน้าจะกลับประเทศไทย",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q5-01",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🚃",
+   "explainTh": "で บอกพาหนะ",
+   "grammarRef": "g5-02",
+   "checked": false,
+   "prompt": "電車（　）会社へ 行きます。",
+   "hintTh": "",
+   "choices": [
+    "で",
+    "と",
+    "へ",
+    "を"
+   ],
+   "answer": "で",
+   "accept": [
+    "で"
+   ]
+  },
+  {
+   "id": "q5-02",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🧑‍🤝‍🧑",
+   "explainTh": "と = กับ (ใคร)",
+   "grammarRef": "g5-03",
+   "checked": false,
+   "prompt": "友達{ともだち}（　）京都{きょうと}へ 行きました。",
+   "hintTh": "ไป \"กับ\" เพื่อน",
+   "choices": [
+    "と",
+    "で",
+    "の",
+    "も"
+   ],
+   "answer": "と",
+   "accept": [
+    "と"
+   ]
+  },
+  {
+   "id": "q5-03",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🗼",
+   "explainTh": "へ บอกทิศทาง อ่านว่า e",
+   "grammarRef": "g5-01",
+   "checked": false,
+   "prompt": "あした 東京{とうきょう}（　）行きます。",
+   "hintTh": "",
+   "choices": [
+    "へ",
+    "を",
+    "で",
+    "が"
+   ],
+   "answer": "へ",
+   "accept": [
+    "へ"
+   ]
+  },
+  {
+   "id": "q5-04",
+   "type": "order",
+   "section": "文法",
+   "emoji": "🚌",
+   "explainTh": "ประโยคที่ถูก: バス で うち へ 帰ります",
+   "grammarRef": "g5-02",
+   "checked": false,
+   "prompt": "กลับบ้านด้วยรถบัส",
+   "tokens": [
+    "バス",
+    "で",
+    "うち",
+    "へ",
+    "帰{かえ}ります"
+   ],
+   "answer": "バスでうちへ帰{かえ}ります"
+  },
+  {
+   "id": "q5-05",
+   "type": "choose",
+   "section": "文法",
+   "emoji": "👣",
+   "explainTh": "เดินไปใช้ 歩いて ไม่ต้องมี で",
+   "grammarRef": "g5-02",
+   "checked": false,
+   "prompt": "เลือกประโยคที่ถูก",
+   "hintTh": "",
+   "choices": [
+    "歩{ある}いて 学校へ 行きます。",
+    "歩{ある}いてで 学校へ 行きます。",
+    "歩{ある}くで 学校へ 行きます。"
+   ],
+   "answer": "歩{ある}いて 学校へ 行きます。",
+   "accept": [
+    "歩{ある}いて 学校へ 行きます。"
+   ]
+  },
+  {
+   "id": "q5-06",
+   "type": "translate",
+   "section": "文法",
+   "emoji": "🛋️",
+   "explainTh": "どこも + ปฏิเสธ = ไม่ไปไหนเลย",
+   "grammarRef": "g5-04",
+   "checked": false,
+   "prompt": "วันอาทิตย์ไม่ไปไหนเลย",
+   "hintTh": "",
+   "choices": [
+    "日曜日{にちようび}は どこも 行きません。",
+    "日曜日{にちようび}は どこへ 行きますか。",
+    "日曜日{にちようび}は どこか 行きます。"
+   ],
+   "answer": "日曜日{にちようび}は どこも 行きません。",
+   "accept": [
+    "日曜日{にちようび}は どこも 行きません。"
+   ]
+  },
+  {
+   "id": "q5-07",
+   "type": "situation",
+   "section": "文法",
+   "emoji": "🗓️",
+   "explainTh": "いつ = เมื่อไร",
+   "grammarRef": "g5-04",
+   "checked": false,
+   "prompt": "อยากรู้ว่าเพื่อนจะไปญี่ปุ่นเมื่อไร",
+   "hintTh": "",
+   "choices": [
+    "いつ 日本へ 行きますか。",
+    "どこへ 行きますか。",
+    "だれと 行きますか。"
+   ],
+   "answer": "いつ 日本へ 行きますか。",
+   "accept": [
+    "いつ 日本へ 行きますか。"
+   ]
+  }
+ ]
+}

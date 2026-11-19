@@ -1,0 +1,489 @@
+{
+ "lesson": 7,
+ "titleTh": "ให้และได้รับ",
+ "titleJp": "あげます・もらいます",
+ "emoji": "🎁",
+ "kanjiBookLesson": 9,
+ "notionUrl": "",
+ "vocab": [
+  {
+   "id": "v7-001",
+   "kana": "きります",
+   "kanji": "切ります",
+   "romaji": "kirimasu",
+   "th": "ตัด",
+   "emoji": "✂️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v7-002",
+   "kana": "おくります",
+   "kanji": "送ります",
+   "romaji": "okurimasu",
+   "th": "ส่ง",
+   "emoji": "📮",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v7-003",
+   "kana": "あげます",
+   "kanji": "",
+   "romaji": "agemasu",
+   "th": "ให้",
+   "emoji": "🎁",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v7-004",
+   "kana": "もらいます",
+   "kanji": "",
+   "romaji": "moraimasu",
+   "th": "ได้รับ",
+   "emoji": "🤲",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v7-005",
+   "kana": "おしえます",
+   "kanji": "教えます",
+   "romaji": "oshiemasu",
+   "th": "สอน",
+   "emoji": "👩‍🏫",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v7-006",
+   "kana": "はし",
+   "kanji": "",
+   "romaji": "hashi",
+   "th": "ตะเกียบ",
+   "emoji": "🥢",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v7-007",
+   "kana": "てがみ",
+   "kanji": "手紙",
+   "romaji": "tegami",
+   "th": "จดหมาย",
+   "emoji": "✉️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v7-008",
+   "kana": "しゃしん",
+   "kanji": "写真",
+   "romaji": "shashin",
+   "th": "รูปถ่าย",
+   "emoji": "📷",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v7-009",
+   "kana": "ちち",
+   "kanji": "父",
+   "romaji": "chichi",
+   "th": "พ่อ (ของเรา)",
+   "emoji": "👨",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v7-010",
+   "kana": "もう",
+   "kanji": "",
+   "romaji": "mou",
+   "th": "แล้ว (เสร็จแล้ว)",
+   "emoji": "✔️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g7-01",
+   "pattern": "道具 で V",
+   "explainTh": "で บอกเครื่องมือ / วิธี",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "はしで ご飯を 食べます。",
+     "kana": "はしで ごはんを たべます。",
+     "th": "กินข้าวด้วยตะเกียบ",
+     "emoji": "🥢"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g7-02",
+   "pattern": "人 に あげます",
+   "explainTh": "ให้ (สิ่งของ) แก่คนอื่น",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "母に 花を あげました。",
+     "kana": "ははに はなを あげました。",
+     "th": "ให้ดอกไม้แม่",
+     "emoji": "🎁"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g7-03",
+   "pattern": "人 に / から もらいます",
+   "explainTh": "ได้รับ (สิ่งของ) จากใคร",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "友達に 手紙を もらいました。",
+     "kana": "ともだちに てがみを もらいました。",
+     "th": "ได้รับจดหมายจากเพื่อน",
+     "emoji": "✉️"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g7-04",
+   "pattern": "もう V-ました",
+   "explainTh": "ทำ ... แล้ว / ยังไม่ทำ = まだです",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "もう 送りましたか。…いいえ、まだです。",
+     "kana": "もう おくりましたか。…いいえ、まだです。",
+     "th": "ส่งแล้วหรือยัง …ยังเลย",
+     "emoji": "📮"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "kanji": [
+  {
+   "id": "k9-01",
+   "char": "聞",
+   "part": 1,
+   "on": [
+    "ブン"
+   ],
+   "kun": [
+    "き(く)"
+   ],
+   "th": "ฟัง / ถาม",
+   "emoji": "👂",
+   "strokes": 14,
+   "words": [
+    {
+     "jp": "聞きます",
+     "kana": "ききます",
+     "th": "ฟัง"
+    },
+    {
+     "jp": "新聞",
+     "kana": "しんぶん",
+     "th": "หนังสือพิมพ์"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k9-02",
+   "char": "書",
+   "part": 1,
+   "on": [
+    "ショ"
+   ],
+   "kun": [
+    "か(く)"
+   ],
+   "th": "เขียน",
+   "emoji": "✍️",
+   "strokes": 10,
+   "words": [
+    {
+     "jp": "書きます",
+     "kana": "かきます",
+     "th": "เขียน"
+    },
+    {
+     "jp": "辞書",
+     "kana": "じしょ",
+     "th": "พจนานุกรม"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k9-03",
+   "char": "読",
+   "part": 1,
+   "on": [
+    "ドク"
+   ],
+   "kun": [
+    "よ(む)"
+   ],
+   "th": "อ่าน",
+   "emoji": "📖",
+   "strokes": 14,
+   "words": [
+    {
+     "jp": "読みます",
+     "kana": "よみます",
+     "th": "อ่าน"
+    },
+    {
+     "jp": "読書",
+     "kana": "どくしょ",
+     "th": "การอ่านหนังสือ"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k9-04",
+   "char": "大",
+   "part": 2,
+   "on": [
+    "ダイ",
+    "タイ"
+   ],
+   "kun": [
+    "おお(きい)"
+   ],
+   "th": "ใหญ่",
+   "emoji": "🐘",
+   "strokes": 3,
+   "words": [
+    {
+     "jp": "大きい",
+     "kana": "おおきい",
+     "th": "ใหญ่"
+    },
+    {
+     "jp": "大学",
+     "kana": "だいがく",
+     "th": "มหาวิทยาลัย"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k9-05",
+   "char": "小",
+   "part": 2,
+   "on": [
+    "ショウ"
+   ],
+   "kun": [
+    "ちい(さい)",
+    "こ"
+   ],
+   "th": "เล็ก",
+   "emoji": "🐜",
+   "strokes": 3,
+   "words": [
+    {
+     "jp": "小さい",
+     "kana": "ちいさい",
+     "th": "เล็ก"
+    },
+    {
+     "jp": "小学校",
+     "kana": "しょうがっこう",
+     "th": "โรงเรียนประถม"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "reading": null,
+ "listening": [
+  {
+   "id": "l7-01",
+   "jp": "父に ネクタイを あげます。",
+   "kana": "ちちに ネクタイを あげます。",
+   "th": "จะให้เนคไทพ่อ",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l7-02",
+   "jp": "パソコンで レポートを 書きます。",
+   "kana": "パソコンで レポートを かきます。",
+   "th": "เขียนรายงานด้วยคอมพิวเตอร์",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l7-03",
+   "jp": "もう 昼ご飯を 食べましたか。",
+   "kana": "もう ひるごはんを たべましたか。",
+   "th": "กินข้าวเที่ยงแล้วหรือยัง",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q7-01",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🥢",
+   "explainTh": "で บอกเครื่องมือ",
+   "grammarRef": "g7-01",
+   "checked": false,
+   "prompt": "はし（　）ご飯{はん}を 食べます。",
+   "hintTh": "",
+   "choices": [
+    "で",
+    "に",
+    "を",
+    "と"
+   ],
+   "answer": "で",
+   "accept": [
+    "で"
+   ]
+  },
+  {
+   "id": "q7-02",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "💐",
+   "explainTh": "ให้ \"แก่\" ใคร ใช้ に",
+   "grammarRef": "g7-02",
+   "checked": false,
+   "prompt": "母（　）花を あげました。",
+   "hintTh": "",
+   "choices": [
+    "に",
+    "で",
+    "を",
+    "が"
+   ],
+   "answer": "に",
+   "accept": [
+    "に"
+   ]
+  },
+  {
+   "id": "q7-03",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "✉️",
+   "explainTh": "ได้รับ \"จาก\" ใคร ใช้ に หรือ から",
+   "grammarRef": "g7-03",
+   "checked": false,
+   "prompt": "友達{ともだち}（　）手紙{てがみ}を もらいました。",
+   "hintTh": "",
+   "choices": [
+    "に",
+    "で",
+    "へ",
+    "を"
+   ],
+   "answer": "に",
+   "accept": [
+    "に"
+   ]
+  },
+  {
+   "id": "q7-04",
+   "type": "order",
+   "section": "文法",
+   "emoji": "📮",
+   "explainTh": "ประโยคที่ถูก: もう 送りました か",
+   "grammarRef": "g7-04",
+   "checked": false,
+   "prompt": "ส่งแล้วหรือยัง",
+   "tokens": [
+    "もう",
+    "送{おく}りました",
+    "か"
+   ],
+   "answer": "もう送{おく}りましたか"
+  },
+  {
+   "id": "q7-05",
+   "type": "choose",
+   "section": "文法",
+   "emoji": "🍱",
+   "explainTh": "もう + ました = ทำแล้ว",
+   "grammarRef": "g7-04",
+   "checked": false,
+   "prompt": "เลือกประโยคที่ถูก",
+   "hintTh": "",
+   "choices": [
+    "もう 昼{ひる}ご飯{はん}を 食べました。",
+    "もう 昼{ひる}ご飯{はん}を 食べます。",
+    "まだ 昼{ひる}ご飯{はん}を 食べました。"
+   ],
+   "answer": "もう 昼{ひる}ご飯{はん}を 食べました。",
+   "accept": [
+    "もう 昼{ひる}ご飯{はん}を 食べました。"
+   ]
+  },
+  {
+   "id": "q7-06",
+   "type": "translate",
+   "section": "文法",
+   "emoji": "💻",
+   "explainTh": "で บอกเครื่องมือ",
+   "grammarRef": "g7-01",
+   "checked": false,
+   "prompt": "เขียนรายงานด้วยคอมพิวเตอร์",
+   "hintTh": "",
+   "choices": [
+    "パソコンで レポートを 書きます。",
+    "パソコンに レポートを 書きます。",
+    "パソコンを レポートで 書きます。"
+   ],
+   "answer": "パソコンで レポートを 書きます。",
+   "accept": [
+    "パソコンで レポートを 書きます。"
+   ]
+  },
+  {
+   "id": "q7-07",
+   "type": "situation",
+   "section": "文法",
+   "emoji": "🎂",
+   "explainTh": "ได้รับ = もらいます",
+   "grammarRef": "g7-03",
+   "checked": false,
+   "prompt": "เล่าให้คนอื่นฟังว่าได้ของขวัญวันเกิดจากเพื่อน",
+   "hintTh": "",
+   "choices": [
+    "友達{ともだち}に プレゼントを もらいました。",
+    "友達{ともだち}に プレゼントを あげました。",
+    "友達{ともだち}で プレゼントを もらいました。"
+   ],
+   "answer": "友達{ともだち}に プレゼントを もらいました。",
+   "accept": [
+    "友達{ともだち}に プレゼントを もらいました。"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,500 @@
+{
+ "lesson": 2,
+ "titleTh": "นี่คืออะไร",
+ "titleJp": "これは 何ですか",
+ "emoji": "📦",
+ "kanjiBookLesson": 4,
+ "notionUrl": "",
+ "vocab": [
+  {
+   "id": "v2-001",
+   "kana": "ほん",
+   "kanji": "本",
+   "romaji": "hon",
+   "th": "หนังสือ",
+   "emoji": "📕",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v2-002",
+   "kana": "じしょ",
+   "kanji": "辞書",
+   "romaji": "jisho",
+   "th": "พจนานุกรม",
+   "emoji": "📖",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v2-003",
+   "kana": "ざっし",
+   "kanji": "雑誌",
+   "romaji": "zasshi",
+   "th": "นิตยสาร",
+   "emoji": "📰",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v2-004",
+   "kana": "かぎ",
+   "kanji": "",
+   "romaji": "kagi",
+   "th": "กุญแจ",
+   "emoji": "🔑",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v2-005",
+   "kana": "とけい",
+   "kanji": "時計",
+   "romaji": "tokei",
+   "th": "นาฬิกา",
+   "emoji": "⌚",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v2-006",
+   "kana": "かさ",
+   "kanji": "傘",
+   "romaji": "kasa",
+   "th": "ร่ม",
+   "emoji": "☂️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v2-007",
+   "kana": "かばん",
+   "kanji": "",
+   "romaji": "kaban",
+   "th": "กระเป๋า",
+   "emoji": "👜",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v2-008",
+   "kana": "えんぴつ",
+   "kanji": "鉛筆",
+   "romaji": "enpitsu",
+   "th": "ดินสอ",
+   "emoji": "✏️",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v2-009",
+   "kana": "くるま",
+   "kanji": "車",
+   "romaji": "kuruma",
+   "th": "รถยนต์",
+   "emoji": "🚗",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "v2-010",
+   "kana": "おみやげ",
+   "kanji": "お土産",
+   "romaji": "omiyage",
+   "th": "ของฝาก",
+   "emoji": "🎁",
+   "pos": "",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "grammar": [
+  {
+   "id": "g2-01",
+   "pattern": "これ / それ / あれ は N です",
+   "explainTh": "これ = สิ่งนี้ (ใกล้ผู้พูด), それ = สิ่งนั้น (ใกล้ผู้ฟัง), あれ = สิ่งโน้น (ไกลทั้งคู่)",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "これは 辞書です。",
+     "kana": "これは じしょです。",
+     "th": "นี่คือพจนานุกรม",
+     "emoji": "📖"
+    },
+    {
+     "jp": "それは 何ですか。",
+     "kana": "それは なんですか。",
+     "th": "นั่นคืออะไร",
+     "emoji": "❓"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g2-02",
+   "pattern": "この / その / あの N",
+   "explainTh": "ต้องมีคำนามตามหลังเสมอ เช่น この 本 = หนังสือเล่มนี้",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "この 傘は わたしのです。",
+     "kana": "この かさは わたしのです。",
+     "th": "ร่มคันนี้เป็นของฉัน",
+     "emoji": "☂️"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g2-03",
+   "pattern": "そうです / ちがいます",
+   "explainTh": "ตอบว่าใช่ / ไม่ใช่ สำหรับคำถามแบบ ですか",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "それは 時計ですか。…はい、そうです。",
+     "kana": "それは とけいですか。…はい、そうです。",
+     "th": "นั่นคือนาฬิกาไหม …ใช่",
+     "emoji": "🙆"
+    },
+    {
+     "jp": "これは 雑誌ですか。…いいえ、ちがいます。",
+     "kana": "これは ざっしですか。…いいえ、ちがいます。",
+     "th": "นี่คือนิตยสารไหม …ไม่ใช่",
+     "emoji": "🙅"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "g2-04",
+   "pattern": "N1 の N2 (เรื่อง / ของใคร)",
+   "explainTh": "บอกว่าเป็นเรื่องอะไร หรือเป็นของใคร",
+   "thaiPitfall": "",
+   "examples": [
+    {
+     "jp": "これは 車の 雑誌です。",
+     "kana": "これは くるまの ざっしです。",
+     "th": "นี่คือนิตยสารเกี่ยวกับรถ",
+     "emoji": "🚗"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "kanji": [
+  {
+   "id": "k4-01",
+   "char": "八",
+   "part": 1,
+   "on": [
+    "ハチ"
+   ],
+   "kun": [
+    "やっ(つ)"
+   ],
+   "th": "แปด",
+   "emoji": "🐙",
+   "strokes": 2,
+   "words": [
+    {
+     "jp": "八つ",
+     "kana": "やっつ",
+     "th": "แปดชิ้น"
+    },
+    {
+     "jp": "八百",
+     "kana": "はっぴゃく",
+     "th": "แปดร้อย"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k4-02",
+   "char": "九",
+   "part": 1,
+   "on": [
+    "キュウ",
+    "ク"
+   ],
+   "kun": [
+    "ここの(つ)"
+   ],
+   "th": "เก้า",
+   "emoji": "🎱",
+   "strokes": 2,
+   "words": [
+    {
+     "jp": "九つ",
+     "kana": "ここのつ",
+     "th": "เก้าชิ้น"
+    },
+    {
+     "jp": "九時",
+     "kana": "くじ",
+     "th": "เก้าโมง"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k4-03",
+   "char": "十",
+   "part": 1,
+   "on": [
+    "ジュウ"
+   ],
+   "kun": [
+    "とお"
+   ],
+   "th": "สิบ",
+   "emoji": "🔟",
+   "strokes": 2,
+   "words": [
+    {
+     "jp": "十",
+     "kana": "とお",
+     "th": "สิบ (ชิ้น)"
+    },
+    {
+     "jp": "十分",
+     "kana": "じゅっぷん",
+     "th": "สิบนาที (อ่าน じっぷん ก็ได้ · ถ้าอ่าน じゅうぶん = เพียงพอ)"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k4-04",
+   "char": "百",
+   "part": 2,
+   "on": [
+    "ヒャク"
+   ],
+   "kun": [],
+   "th": "ร้อย",
+   "emoji": "💯",
+   "strokes": 6,
+   "words": [
+    {
+     "jp": "百",
+     "kana": "ひゃく",
+     "th": "ร้อย"
+    },
+    {
+     "jp": "三百",
+     "kana": "さんびゃく",
+     "th": "สามร้อย"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k4-05",
+   "char": "千",
+   "part": 2,
+   "on": [
+    "セン"
+   ],
+   "kun": [
+    "ち"
+   ],
+   "th": "พัน",
+   "emoji": "🔢",
+   "strokes": 3,
+   "words": [
+    {
+     "jp": "千",
+     "kana": "せん",
+     "th": "พัน"
+    },
+    {
+     "jp": "三千",
+     "kana": "さんぜん",
+     "th": "สามพัน"
+    }
+   ],
+   "checked": false
+  },
+  {
+   "id": "k4-06",
+   "char": "万",
+   "part": 2,
+   "on": [
+    "マン",
+    "バン"
+   ],
+   "kun": [],
+   "th": "หมื่น",
+   "emoji": "💰",
+   "strokes": 3,
+   "words": [
+    {
+     "jp": "一万",
+     "kana": "いちまん",
+     "th": "หนึ่งหมื่น"
+    }
+   ],
+   "checked": false
+  }
+ ],
+ "reading": null,
+ "listening": [
+  {
+   "id": "l2-01",
+   "jp": "これは 何ですか。",
+   "kana": "これは なんですか。",
+   "th": "นี่คืออะไร",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l2-02",
+   "jp": "それは かぎです。",
+   "kana": "それは かぎです。",
+   "th": "นั่นคือกุญแจ",
+   "audio": "",
+   "checked": false
+  },
+  {
+   "id": "l2-03",
+   "jp": "この かばんは だれのですか。",
+   "kana": "この かばんは だれのですか。",
+   "th": "กระเป๋าใบนี้เป็นของใคร",
+   "audio": "",
+   "checked": false
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q2-01",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "🚗",
+   "explainTh": "N1 の N2 = N2 เกี่ยวกับ N1",
+   "grammarRef": "g2-04",
+   "checked": false,
+   "prompt": "これは 車（　）雑誌{ざっし}です。",
+   "hintTh": "นี่คือนิตยสาร \"เกี่ยวกับ\" รถ",
+   "choices": [
+    "の",
+    "は",
+    "も",
+    "を"
+   ],
+   "answer": "の",
+   "accept": [
+    "の"
+   ]
+  },
+  {
+   "id": "q2-02",
+   "type": "fill",
+   "section": "文法",
+   "emoji": "☂️",
+   "explainTh": "この ต้องมีคำนามตามหลัง ส่วน これ ใช้ลำพัง",
+   "grammarRef": "g2-02",
+   "checked": false,
+   "prompt": "（　）傘{かさ}は わたしのです。",
+   "hintTh": "ร่ม \"คันนี้\" เป็นของฉัน",
+   "choices": [
+    "この",
+    "これ",
+    "ここ",
+    "どれ"
+   ],
+   "answer": "この",
+   "accept": [
+    "この"
+   ]
+  },
+  {
+   "id": "q2-03",
+   "type": "order",
+   "section": "文法",
+   "emoji": "❓",
+   "explainTh": "ประโยคที่ถูก: それ は 何 です か",
+   "grammarRef": "g2-01",
+   "checked": false,
+   "prompt": "นั่นคืออะไร",
+   "tokens": [
+    "それ",
+    "は",
+    "何",
+    "です",
+    "か"
+   ],
+   "answer": "それは何ですか"
+  },
+  {
+   "id": "q2-04",
+   "type": "choose",
+   "section": "文法",
+   "emoji": "📕",
+   "explainTh": "\"ของฉัน\" = わたしの",
+   "grammarRef": "g2-02",
+   "checked": false,
+   "prompt": "เลือกประโยคที่ถูก",
+   "hintTh": "",
+   "choices": [
+    "この 本は わたしのです。",
+    "この 本は わたしです。",
+    "これ 本は わたしのです。"
+   ],
+   "answer": "この 本は わたしのです。",
+   "accept": [
+    "この 本は わたしのです。"
+   ]
+  },
+  {
+   "id": "q2-05",
+   "type": "translate",
+   "section": "文法",
+   "emoji": "📰",
+   "explainTh": "ปฏิเสธใช้ じゃ ありません",
+   "grammarRef": "g2-03",
+   "checked": false,
+   "prompt": "นี่ไม่ใช่นิตยสาร",
+   "hintTh": "",
+   "choices": [
+    "これは 雑誌{ざっし}じゃ ありません。",
+    "それは 雑誌{ざっし}です。",
+    "これは 雑誌{ざっし}ですか。"
+   ],
+   "answer": "これは 雑誌{ざっし}じゃ ありません。",
+   "accept": [
+    "これは 雑誌{ざっし}じゃ ありません。"
+   ]
+  },
+  {
+   "id": "q2-06",
+   "type": "situation",
+   "section": "文法",
+   "emoji": "🎁",
+   "explainTh": "どうぞ = เชิญ / นี่ครับ",
+   "grammarRef": "g2-01",
+   "checked": false,
+   "prompt": "ยื่นของฝากให้เพื่อนบ้าน ควรพูดว่า",
+   "hintTh": "",
+   "choices": [
+    "これ、どうぞ。",
+    "いただきます。",
+    "すみません。"
+   ],
+   "answer": "これ、どうぞ。",
+   "accept": [
+    "これ、どうぞ。"
+   ]
+  }
+ ]
+}

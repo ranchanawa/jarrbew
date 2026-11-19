@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffb8d4">
+<title>にほんごのへや · N5 Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&family=M+PLUS+Rounded+1c:wght@400;700&family=Noto+Sans+Thai:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="desk" id="desk">
+  <div class="bg-deco" id="bgDeco" aria-hidden="true"></div>
+  <button class="game-folder" id="gameFolder" data-soon="มุมเกม 🎮 เร็ว ๆ นี้ (รอบที่ 2)" aria-label="โฟลเดอร์เกม (เร็ว ๆ นี้)"><span class="pixel">GAME</span></button>
+
+  <div class="app" id="app" data-layout="desktop">
+    <div class="win">
+      <!-- แถบชื่อหน้าต่าง -->
+      <header class="titlebar">
+        <span class="title pixel">🐾 にほんごのへや · N5 Room</span>
+        <span class="tb-actions">
+          <button class="tb-btn" id="openFull" title="เปิดแบบเต็มหน้า">↗ <span class="t">เปิดแบบเต็มหน้า</span></button>
+          <button class="tb-btn sound-btn" aria-pressed="false" aria-label="เปิดเสียง">🔇</button>
+          <span class="wbtns" aria-hidden="true"><i>_</i><i>□</i><i>×</i></span>
+        </span>
+      </header>
+      <!-- แถบ URL ปลอม -->
+      <div class="urlbar" aria-hidden="true">
+        <span class="nav">◀ ▶ ⟳</span>
+        <span class="url pixel"><span class="lock">🔒</span> nihongo-room.com/<b id="urlPath">ห้อง</b></span>
+      </div>
+      <!-- ปุ่มเม็ดยา -->
+      <nav class="pills" aria-label="ทางลัด">
+        <button class="pill jelly" data-open="lessons">📚 บทเรียน</button>
+        <button class="pill jelly" data-open="cards">🗂️ การ์ด</button>
+        <button class="pill jelly" data-open="kanji">✍️ คันจิ</button>
+        <button class="pill jelly" data-open="quiz">🎯 แบบทดสอบ</button>
+        <button class="pill jelly" data-open="planner">📅 แพลนเนอร์</button>
+        <button class="pill jelly" data-open="stickers">🌟 สติกเกอร์</button>
+      </nav>
+
+      <main class="main">
+        <!-- แถบซ้าย -->
+        <aside class="side side-l" aria-label="ข้อมูลผู้เรียน">
+          <section class="card profile-card">
+            <div class="avatar"></div>
+            <div><div class="name">นักเรียนแมวน้อย</div><div class="meta">🔥 <b class="streak-n">0</b> วัน · 💮 <span class="stamp-n">0</span> · 🌟 <span class="sticker-count">0</span></div><div class="meta mob-timer"><button class="timer-read">🌳 25:00 ⏸</button></div></div>
+          </section>
+          <section class="card today-card">
+            <h2 class="card-h"><button id="todayToggle" class="fold" aria-expanded="true"><span class="pixel" lang="ja">今日は…</span> <span class="today-date"></span> <span class="chev" aria-hidden="true">▾</span></button></h2>
+            <div class="fold-body">
+              <p class="jp-big season-word" lang="ja"></p>
+              <p class="muted">คำศัพท์ประจำฤดู · แตะหน้าต่างซ้ายเพื่อเก็บ (ขั้นที่ 2)</p>
+            </div>
+          </section>
+          <section class="card note-card todo-card">
+            <h2 class="card-h">📝 งานวันนี้</h2>
+            <ul class="todo"><li>☐ อุ่นเครื่องคานะ 10 นาที</li><li>☐ บทที่ 1 · คำศัพท์</li><li>☐ ทบทวนการ์ด 0 ใบ</li></ul>
+            <p class="muted small"><button class="link" data-open="planner">เปิดแพลนเนอร์ ›</button></p>
+          </section>
+        </aside>
+
+        <!-- ห้อง -->
+        <section class="roomwrap" aria-label="ห้องเรียน">
+          <div class="floaters" id="floaters" aria-hidden="true"></div>
+          <div class="room-scroll" id="roomScroll">
+            <div class="stage" id="stage">
+              <span class="snap s0"></span><span class="snap s1"></span><span class="snap s2"></span>
+              <div class="canvas" id="canvas">
+                <svg id="room" viewBox="0 0 320 212" shape-rendering="crispEdges" role="img" aria-label="ห้องเรียนพิกเซล: ชั้นหนังสือ หน้าต่าง เตาผิง อาร์มแชร์ โต๊ะกล่องการ์ด หูฟัง ต้นไม้ และแมวนอนบนพรม"></svg>
+                <div class="hits" id="hits" role="group" aria-label="ของในห้องที่กดได้"></div>
+                <div class="tag" id="tag" aria-hidden="true"></div>
+                <div class="say" id="say" role="status" aria-live="polite"></div>
+              </div>
+            </div>
+          </div>
+          <button class="hint-btn jelly" aria-label="แสดงจุดที่กดได้">💡</button>
+          <div class="pop" id="pop" role="dialog" aria-label="คำศัพท์ประจำฤดู" hidden></div>
+          <button class="theme-nav prev" data-tnav="-1" aria-label="ธีมก่อนหน้า"><span aria-hidden="true">◀</span><span class="ti"></span></button>
+          <button class="theme-nav next" data-tnav="1" aria-label="ธีมถัดไป"><span class="ti"></span><span aria-hidden="true">▶</span></button>
+          <div class="room-dots" role="group" aria-label="เลื่อนดูห้อง"><button data-i="0" aria-label="ด้านซ้าย"></button><button data-i="1" aria-label="ตรงกลาง"></button><button data-i="2" aria-label="ด้านขวา"></button></div>
+        </section>
+
+        <!-- แถบขวา -->
+        <aside class="side side-r" aria-label="การเรียน">
+          <section class="card note-card continue-card">
+            <h2 class="card-h">▶ เรียนต่อ</h2>
+            <p class="continue-title"></p>
+            <button class="jelly big-btn" data-open="continue">▶ เรียนต่อ</button>
+          </section>
+          <section class="card lessons-card">
+            <h2 class="card-h"><button class="link" data-open="lessons">📚 บทเรียน 1–12</button></h2>
+            <ul class="mini" id="lessonMini"></ul>
+          </section>
+          <section class="card theme-card">
+            <h2 class="card-h">🎨 ธีมห้อง</h2>
+            <div class="theme-btns" id="themeBtns"></div>
+          </section>
+        </aside>
+        <div class="win-layer" id="winLayer"></div>
+      </main>
+
+      <!-- ทาสก์บาร์ (คอม / iPad) -->
+      <footer class="taskbar">
+        <button class="start jelly" data-open="menu" title="เมนู (Ctrl/⌘+K ค้นหา)"><span class="pixel">★</span> เมนู</button>
+        <div class="theme-btns bar" id="themeBtnsBar"></div><div class="task-wins" id="taskWins"></div>
+        <button class="calm-btn tb-btn" aria-pressed="false">✨ ลดการเคลื่อนไหว: ปิด</button>
+        <span class="tray"><button class="timer-read" title="แตะเพื่อเริ่ม/หยุดจับเวลา (หรือแตะต้นไม้)">🌳 25:00 ⏸</button><span title="สติกเกอร์ที่สะสม">🌟 <span class="sticker-count">0</span></span><span class="clock pixel"></span></span>
+      </footer>
+      <!-- แถบแท็บ (มือถือ) -->
+      <nav class="tabbar" aria-label="เมนูหลัก">
+        <button data-open="menu"><span>★</span>เมนู</button><button data-open="lessons"><span>📚</span>บทเรียน</button><button data-open="cards"><span>🗂️</span>การ์ด</button><button data-open="kanji"><span>✍️</span>คันจิ</button><button data-open="planner"><span>📅</span>แผน</button>
+      </nav>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="js/data-core.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
